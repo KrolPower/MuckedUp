@@ -1,0 +1,276 @@
+[2026-09-12T05:20:44.352Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=25348
+[2026-09-12T05:20:44.354Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-09-12T05:20:44.389Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=194 bundledCAs=145
+[2026-09-12T05:20:44.390Z] [INFO] log Starting relay server...
+[2026-09-12T05:20:44.390Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","25348","--shutdown-delay","180","--log-dir","E:\\VSCodeProjects\\Repos\\MuckedUp\\Logs"]
+[2026-09-12T05:20:44.391Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"25348","shutdownDelaySeconds":180}
+[2026-09-12T05:20:44.425Z] [INFO] log Initializing relay components...
+[2026-09-12T05:20:44.425Z] [INFO] log Creating RelayEditor...
+[2026-09-12T05:20:44.435Z] [INFO] log WebSocket server started
+[2026-09-12T05:20:44.436Z] [INFO] log Relay server initialization completed
+[2026-09-12T05:20:44.436Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-12T05:20:44.443Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-12T05:20:44.803Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-12T05:20:45.243Z] [INFO] log Unity client connected with ID: editor-25348-p0iryn (relay 1.0.12-build.99)
+[2026-09-12T05:20:45.244Z] [INFO] connection.established clientId=editor-25348-p0iryn port=9001
+[2026-09-12T05:20:46.146Z] [INFO] log Loaded 1 credentials from keychain
+[2026-09-12T05:22:06.334Z] [DEBUG] log [SharedTask] get preferences: starting new task
+[2026-09-12T05:22:06.580Z] [DEBUG] log [GatewayPrefs] getPreferences completed successfully with 4 providers (persisted=true)
+[2026-09-12T05:22:06.976Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-12T05:22:06.976Z] [DEBUG] log [GatewayPrefs] Emitted PreferencesUpdated with 2 versions
+[2026-09-12T05:22:06.978Z] [DEBUG] message.received type=gateway/providers_request
+[2026-09-12T05:22:07.134Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-09-12T05:22:07.499Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-09-12T05:22:07.500Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-09-12T05:22:44.043Z] [INFO] log Session start request received from client editor-25348-p0iryn (protocol: assistant)
+[2026-09-12T05:22:44.044Z] [INFO] log Cloud session create: wss://api-beta-v2.prd.azure.muse.unity.com/v1/assistant/ws
+[2026-09-12T05:22:44.045Z] [INFO] assistant.session.create conversationId= cloudBackendUri=wss://api-beta-v2.prd.azure.muse.unity.com/v1/assistant/ws
+[2026-09-12T05:22:44.046Z] [INFO] log createCloudSession: after cleanup, sessionSequenceId=0
+[2026-09-12T05:22:44.046Z] [INFO] log Creating new cloud session (seqId=1)
+[2026-09-12T05:22:44.046Z] [DEBUG] log Target endpoint: wss://api-beta-v2.prd.azure.muse.unity.com/v1/assistant/ws
+[2026-09-12T05:22:44.046Z] [DEBUG] log Using headers: ["Authorization","org-id","project-id","conversation-kind","analytics-session-id","analytics-session-count","analytics-user-id","version-editor","version-package","version-api-specification"]
+[2026-09-12T05:22:44.047Z] [INFO] log Opening WebSocket connection to cloud: wss://api-beta-v2.prd.azure.muse.unity.com/v1/assistant/ws
+[2026-09-12T05:22:45.042Z] [INFO] log Cloud session connected successfully
+[2026-09-12T05:22:45.043Z] [DEBUG] log Cloud->Relay:  {"$type":"DISCUSSION_INITIALIZATION_V1","conversation_id":"47b9c708-643c-4d44-ada5-235b5fb2fad6","chat_timeout_seconds":300,"max_message_size_bytes":34000}
+[2026-09-12T05:22:45.044Z] [DEBUG] assistant.message.received size=155
+[2026-09-12T05:22:45.044Z] [INFO] log New conversation started - clearing session state
+[2026-09-12T05:22:45.045Z] [DEBUG] log Cloud->Relay:  {"$type":"CAPABILITIES_REQUEST_V1"}
+[2026-09-12T05:22:45.045Z] [DEBUG] assistant.message.received size=35
+[2026-09-12T05:22:45.082Z] [DEBUG] message.received type=CAPABILITIES_RESPONSE_V1
+[2026-09-12T05:22:45.082Z] [DEBUG] log Forwarding to cloud - length: 91465
+[2026-09-12T05:22:45.113Z] [DEBUG] message.received type=CHAT_REQUEST_V1
+[2026-09-12T05:22:45.113Z] [DEBUG] log Forwarding to cloud - length: 452
+[2026-09-12T05:22:45.448Z] [DEBUG] log Cloud->Relay:  {"$type":"AVAILABLE_SKILLS_V1","skills":[{"name":"ui-figma","description":"Extract design context from a Figma project: discover screens, download visual assets, and produce a structured layout summar...
+[2026-09-12T05:22:45.448Z] [DEBUG] assistant.message.received size=24183
+[2026-09-12T05:22:45.449Z] [DEBUG] log Cloud->Relay:  {"$type":"SKILLS_REQUEST_V1"}
+[2026-09-12T05:22:45.449Z] [DEBUG] assistant.message.received size=29
+[2026-09-12T05:22:45.471Z] [DEBUG] message.received type=SKILLS_RESPONSE_V1
+[2026-09-12T05:22:45.471Z] [DEBUG] log Forwarding to cloud - length: 1717
+[2026-09-12T05:22:45.641Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_ACKNOWLEDGMENT_V1","message_id":"a74faf0d-fa2e-4145-bdbe-a4dd58cce535","timestamp":1789190566320,"markdown":"how are rocks set in thee game? Is it a preeefab, or are theeey crreated pro...
+[2026-09-12T05:22:45.641Z] [DEBUG] assistant.message.received size=244
+[2026-09-12T05:22:45.662Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"0b121c82-7362-4627-91c2-45a992659003","function_id":"Unity.GetStaticProjectSettingsTool","function_parameters":{}}
+[2026-09-12T05:22:45.662Z] [DEBUG] assistant.message.received size=161
+[2026-09-12T05:22:45.689Z] [DEBUG] log Function call response received for 0b121c82-7362-4627-91c2-45a992659003 - clearing pending state
+[2026-09-12T05:22:45.689Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:45.690Z] [DEBUG] log Forwarding to cloud - length: 689
+[2026-09-12T05:22:45.851Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"d12b6871-a44d-4f17-b489-2761e5f97a1a","function_id":"Unity.GetSceneInfo","function_parameters":{}}
+[2026-09-12T05:22:45.851Z] [DEBUG] assistant.message.received size=145
+[2026-09-12T05:22:45.857Z] [DEBUG] log Function call response received for d12b6871-a44d-4f17-b489-2761e5f97a1a - clearing pending state
+[2026-09-12T05:22:45.857Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:45.857Z] [DEBUG] log Forwarding to cloud - length: 217
+[2026-09-12T05:22:46.017Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"4a78dbc4-37b5-4d04-b1dc-efcd0ee664b5","function_id":"Unity.GetUserGuidelines","function_parameters":{}}
+[2026-09-12T05:22:46.018Z] [DEBUG] assistant.message.received size=150
+[2026-09-12T05:22:46.023Z] [DEBUG] log Function call response received for 4a78dbc4-37b5-4d04-b1dc-efcd0ee664b5 - clearing pending state
+[2026-09-12T05:22:46.023Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:46.023Z] [DEBUG] log Forwarding to cloud - length: 122
+[2026-09-12T05:22:46.225Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"c39fb65a-9ca4-491c-93c3-a818c987f717","function_id":"Unity.GetUnityDependenciesTool","function_parameters":{}}
+[2026-09-12T05:22:46.225Z] [DEBUG] assistant.message.received size=157
+[2026-09-12T05:22:48.044Z] [DEBUG] log Function call response received for c39fb65a-9ca4-491c-93c3-a818c987f717 - clearing pending state
+[2026-09-12T05:22:48.044Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:48.045Z] [DEBUG] log Forwarding to cloud - length: 2606
+[2026-09-12T05:22:48.212Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"13d2e6c8-84c8-40e4-8e19-639f177e1bf6","function_id":"Unity.GetProjectOverview","function_parameters":{}}
+[2026-09-12T05:22:48.212Z] [DEBUG] assistant.message.received size=151
+[2026-09-12T05:22:48.215Z] [DEBUG] log Function call response received for 13d2e6c8-84c8-40e4-8e19-639f177e1bf6 - clearing pending state
+[2026-09-12T05:22:48.215Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:48.215Z] [DEBUG] log Forwarding to cloud - length: 122
+[2026-09-12T05:22:55.166Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"cb0f4ace-603b-4120-83be-01e83e23d14f","function_id":"Unity.Grep","function_parameters":{"args":"-i \"rock\""}}
+[2026-09-12T05:22:55.166Z] [DEBUG] assistant.message.received size=157
+[2026-09-12T05:22:55.170Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"cb0f4ace-603b-4120-83be-01e83e2...
+[2026-09-12T05:22:55.170Z] [DEBUG] assistant.message.received size=356
+[2026-09-12T05:22:55.579Z] [DEBUG] log Function call response received for cb0f4ace-603b-4120-83be-01e83e23d14f - clearing pending state
+[2026-09-12T05:22:55.579Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:55.579Z] [DEBUG] log Forwarding to cloud - length: 1339
+[2026-09-12T05:22:55.761Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"cb0f4ace-603b-4120-83be-01e83...
+[2026-09-12T05:22:55.761Z] [DEBUG] assistant.message.received size=3752
+[2026-09-12T05:22:58.301Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"bcc87405-5f36-4613-9ed5-aa78b3dec3cb","function_id":"Unity.Grep","function_parameters":{"args":"-l \"MapGenerator|ResourceManager|Resource|Spawn|Generati...
+[2026-09-12T05:22:58.301Z] [DEBUG] assistant.message.received size=215
+[2026-09-12T05:22:58.301Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"bcc87405-5f36-4613-9ed5-aa78b3d...
+[2026-09-12T05:22:58.301Z] [DEBUG] assistant.message.received size=414
+[2026-09-12T05:22:58.416Z] [DEBUG] log Function call response received for bcc87405-5f36-4613-9ed5-aa78b3dec3cb - clearing pending state
+[2026-09-12T05:22:58.416Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:22:58.417Z] [DEBUG] log Forwarding to cloud - length: 4754
+[2026-09-12T05:22:58.595Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"bcc87405-5f36-4613-9ed5-aa78b...
+[2026-09-12T05:22:58.595Z] [DEBUG] assistant.message.received size=13610
+[2026-09-12T05:23:00.778Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"53122b25-6129-4ea4-9f49-89fb3232a919","function_id":"Unity.GetFileContent","function_parameters":{"filePath":"Assets/Scripts/Assembly-CSharp/GenerateAllR...
+[2026-09-12T05:23:00.779Z] [DEBUG] assistant.message.received size=214
+[2026-09-12T05:23:00.779Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"53122b25-6129-4ea4-9f...
+[2026-09-12T05:23:00.779Z] [DEBUG] assistant.message.received size=409
+[2026-09-12T05:23:00.794Z] [DEBUG] log Function call response received for 53122b25-6129-4ea4-9f49-89fb3232a919 - clearing pending state
+[2026-09-12T05:23:00.794Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:00.794Z] [DEBUG] log Forwarding to cloud - length: 937
+[2026-09-12T05:23:00.979Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"53122b25-6129-4ea4-...
+[2026-09-12T05:23:00.980Z] [DEBUG] assistant.message.received size=2937
+[2026-09-12T05:23:03.265Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"99a5c4b1-db7e-41e4-937a-98c63ef2f034","function_id":"Unity.GetFileContent","function_parameters":{"filePath":"Assets/Scripts/Assembly-CSharp/ResourceGene...
+[2026-09-12T05:23:03.265Z] [DEBUG] assistant.message.received size=211
+[2026-09-12T05:23:03.265Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"99a5c4b1-db7e-41e4-93...
+[2026-09-12T05:23:03.265Z] [DEBUG] assistant.message.received size=406
+[2026-09-12T05:23:03.322Z] [DEBUG] log Function call response received for 99a5c4b1-db7e-41e4-937a-98c63ef2f034 - clearing pending state
+[2026-09-12T05:23:03.322Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:03.322Z] [DEBUG] log Forwarding to cloud - length: 6938
+[2026-09-12T05:23:03.502Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"99a5c4b1-db7e-41e4-...
+[2026-09-12T05:23:03.502Z] [DEBUG] assistant.message.received size=19040
+[2026-09-12T05:23:05.317Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"e1e52408-21fc-4364-bf5a-2d8d0fa990ec","function_id":"Unity.GetFileContent","function_parameters":{"filePath":"Assets/Scripts/Assembly-CSharp/HitableRock....
+[2026-09-12T05:23:05.317Z] [DEBUG] assistant.message.received size=205
+[2026-09-12T05:23:05.317Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"e1e52408-21fc-4364-bf...
+[2026-09-12T05:23:05.318Z] [DEBUG] assistant.message.received size=400
+[2026-09-12T05:23:05.340Z] [DEBUG] log Function call response received for e1e52408-21fc-4364-bf5a-2d8d0fa990ec - clearing pending state
+[2026-09-12T05:23:05.340Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:05.340Z] [DEBUG] log Forwarding to cloud - length: 214
+[2026-09-12T05:23:05.518Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"e1e52408-21fc-4364-...
+[2026-09-12T05:23:05.518Z] [DEBUG] assistant.message.received size=972
+[2026-09-12T05:23:07.618Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"9d036f8f-c7d8-4869-b223-02c4d391191c","function_id":"Unity.GetFileContent","function_parameters":{"filePath":"Assets/Scripts/Assembly-CSharp/HitableResou...
+[2026-09-12T05:23:07.618Z] [DEBUG] assistant.message.received size=209
+[2026-09-12T05:23:07.619Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"9d036f8f-c7d8-4869-b2...
+[2026-09-12T05:23:07.619Z] [DEBUG] assistant.message.received size=404
+[2026-09-12T05:23:07.672Z] [DEBUG] log Function call response received for 9d036f8f-c7d8-4869-b223-02c4d391191c - clearing pending state
+[2026-09-12T05:23:07.672Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:07.672Z] [DEBUG] log Forwarding to cloud - length: 5574
+[2026-09-12T05:23:07.855Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.GetFileContent\", \"call_id\": \"9d036f8f-c7d8-4869-...
+[2026-09-12T05:23:07.855Z] [DEBUG] assistant.message.received size=13400
+[2026-09-12T05:23:10.079Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"787d2879-dd63-4f1b-81e3-aa7b231b7fe6","function_id":"Unity.Grep","function_parameters":{"args":"--glob \"*.prefab\" -l \"Rock|Ore|Stone|Coal|Iron|Gold|Mi...
+[2026-09-12T05:23:10.081Z] [DEBUG] assistant.message.received size=221
+[2026-09-12T05:23:10.082Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"787d2879-dd63-4f1b-81e3-aa7b231...
+[2026-09-12T05:23:10.082Z] [DEBUG] assistant.message.received size=424
+[2026-09-12T05:23:10.255Z] [DEBUG] log Function call response received for 787d2879-dd63-4f1b-81e3-aa7b231b7fe6 - clearing pending state
+[2026-09-12T05:23:10.255Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:10.256Z] [DEBUG] log Forwarding to cloud - length: 6282
+[2026-09-12T05:23:10.439Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"787d2879-dd63-4f1b-81e3-aa7b2...
+[2026-09-12T05:23:10.439Z] [DEBUG] assistant.message.received size=17026
+[2026-09-12T05:23:12.499Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"e19dbf5b-ef63-4e40-9276-c913cdb97021","function_id":"Unity.Grep","function_parameters":{"args":"--glob \"*.unity\" -l \"\""}}
+[2026-09-12T05:23:12.499Z] [DEBUG] assistant.message.received size=172
+[2026-09-12T05:23:12.500Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"e19dbf5b-ef63-4e40-9276-c913cdb...
+[2026-09-12T05:23:12.500Z] [DEBUG] assistant.message.received size=375
+[2026-09-12T05:23:12.618Z] [DEBUG] log Function call response received for e19dbf5b-ef63-4e40-9276-c913cdb97021 - clearing pending state
+[2026-09-12T05:23:12.618Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:12.619Z] [DEBUG] log Forwarding to cloud - length: 3007
+[2026-09-12T05:23:12.797Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.Grep\", \"call_id\": \"e19dbf5b-ef63-4e40-9276-c913c...
+[2026-09-12T05:23:12.797Z] [DEBUG] assistant.message.received size=8363
+[2026-09-12T05:23:15.118Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<THOUGHT>{\"content\": \"**Investigating Rock Generation**\\n\\nI'm currently examining...
+[2026-09-12T05:23:15.119Z] [DEBUG] assistant.message.received size=574
+[2026-09-12T05:23:16.217Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"dbe602d1-7be3-4b49-9060-aabad914bc83","function_id":"Unity.RunCommandValidator","function_parameters":{"code":"using UnityEngine;\nusing UnityEditor;\nus...
+[2026-09-12T05:23:16.217Z] [DEBUG] assistant.message.received size=1296
+[2026-09-12T05:23:16.219Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"5ce80c66-5177-424...
+[2026-09-12T05:23:16.219Z] [DEBUG] assistant.message.received size=1580
+[2026-09-12T05:23:17.489Z] [DEBUG] log Function call response received for dbe602d1-7be3-4b49-9060-aabad914bc83 - clearing pending state
+[2026-09-12T05:23:17.489Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:17.489Z] [DEBUG] log Forwarding to cloud - length: 1495
+[2026-09-12T05:23:17.649Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"5ce80c66-5177-424e-b078-4a5bc235a939","function_id":"Unity.RunReadOnlyCommand","function_parameters":{"code":"using UnityEngine;\r\nusing UnityEditor;\r\...
+[2026-09-12T05:23:17.649Z] [DEBUG] assistant.message.received size=1493
+[2026-09-12T05:23:18.817Z] [DEBUG] log Function call response received for 5ce80c66-5177-424e-b078-4a5bc235a939 - clearing pending state
+[2026-09-12T05:23:18.817Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:18.818Z] [DEBUG] log Forwarding to cloud - length: 375
+[2026-09-12T05:23:18.997Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"5ce80c66-5177-4...
+[2026-09-12T05:23:18.997Z] [DEBUG] assistant.message.received size=2565
+[2026-09-12T05:23:22.924Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"b2cf88f3-161b-4c94-9a8f-b1d2d692c303","function_id":"Unity.RunCommandValidator","function_parameters":{"code":"using UnityEngine;\nusing UnityEditor;\nus...
+[2026-09-12T05:23:22.924Z] [DEBUG] assistant.message.received size=1400
+[2026-09-12T05:23:22.925Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"c96b3d9b-5aa2-4cc...
+[2026-09-12T05:23:22.925Z] [DEBUG] assistant.message.received size=1708
+[2026-09-12T05:23:23.066Z] [DEBUG] log Function call response received for b2cf88f3-161b-4c94-9a8f-b1d2d692c303 - clearing pending state
+[2026-09-12T05:23:23.067Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:23.067Z] [DEBUG] log Forwarding to cloud - length: 1624
+[2026-09-12T05:23:23.227Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"c96b3d9b-5aa2-4cc4-9a20-749093dd0d10","function_id":"Unity.RunReadOnlyCommand","function_parameters":{"code":"using UnityEngine;\r\nusing UnityEditor;\r\...
+[2026-09-12T05:23:23.228Z] [DEBUG] assistant.message.received size=1646
+[2026-09-12T05:23:24.433Z] [DEBUG] log Function call response received for c96b3d9b-5aa2-4cc4-9a20-749093dd0d10 - clearing pending state
+[2026-09-12T05:23:24.433Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:24.434Z] [DEBUG] log Forwarding to cloud - length: 3140
+[2026-09-12T05:23:24.615Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"c96b3d9b-5aa2-4...
+[2026-09-12T05:23:24.615Z] [DEBUG] assistant.message.received size=8373
+[2026-09-12T05:23:27.175Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"36d1d6fb-77e2-41f5-9e5b-725d2ca9c25e","function_id":"Unity.RunCommandValidator","function_parameters":{"code":"using UnityEditor.SceneManagement;\n\ninte...
+[2026-09-12T05:23:27.176Z] [DEBUG] assistant.message.received size=470
+[2026-09-12T05:23:27.177Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_CALL>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"17697bbd-b78e-469...
+[2026-09-12T05:23:27.178Z] [DEBUG] assistant.message.received size=711
+[2026-09-12T05:23:27.207Z] [DEBUG] log Function call response received for 36d1d6fb-77e2-41f5-9e5b-725d2ca9c25e - clearing pending state
+[2026-09-12T05:23:27.207Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:27.207Z] [DEBUG] log Forwarding to cloud - length: 625
+[2026-09-12T05:23:27.374Z] [DEBUG] log Cloud->Relay:  {"$type":"FUNCTION_CALL_REQUEST_V1","call_id":"17697bbd-b78e-4691-9654-7aca424b4278","function_id":"Unity.RunReadOnlyCommand","function_parameters":{"code":"using UnityEditor.SceneManagement;\r\n\r\nn...
+[2026-09-12T05:23:27.375Z] [DEBUG] assistant.message.received size=616
+[2026-09-12T05:23:28.886Z] [DEBUG] log Function call response received for 17697bbd-b78e-4691-9654-7aca424b4278 - clearing pending state
+[2026-09-12T05:23:28.887Z] [DEBUG] message.received type=FUNCTION_CALL_RESPONSE_V1
+[2026-09-12T05:23:28.887Z] [DEBUG] log Forwarding to cloud - length: 211
+[2026-09-12T05:23:29.065Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<TOOL_RESULT>{\"tool_id\": \"Unity.RunReadOnlyCommand\", \"call_id\": \"17697bbd-b78e-4...
+[2026-09-12T05:23:29.066Z] [DEBUG] assistant.message.received size=1286
+[2026-09-12T05:23:31.535Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<THOUGHT>{\"content\": \"**Confirming Rock Creation**\\n\\nI've confirmed that rock obj...
+[2026-09-12T05:23:31.535Z] [DEBUG] assistant.message.received size=449
+[2026-09-12T05:23:33.051Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"<THOUGHT>{\"content\": \"**Generating Rock Distributions**\\n\\nMy current focus is on ...
+[2026-09-12T05:23:33.051Z] [DEBUG] assistant.message.received size=555
+[2026-09-12T05:23:33.264Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"In the game, rocks are","context_usage_used_tokens":null,"context_usage_max_tokens":nul...
+[2026-09-12T05:23:33.265Z] [DEBUG] assistant.message.received size=202
+[2026-09-12T05:23:33.593Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" **premade Prefabs placed via procedural generation**.\n\n---\n\n### 1. The Rock Object...
+[2026-09-12T05:23:33.593Z] [DEBUG] assistant.message.received size=289
+[2026-09-12T05:23:33.678Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" physical rocks and ores in the game are standard Unity prefabs stored in `Assets/Prefa...
+[2026-09-12T05:23:33.678Z] [DEBUG] assistant.message.received size=301
+[2026-09-12T05:23:33.825Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":".prefab`** (Large minable rock nodes with `HitableRock`, `MeshFilter`, `MeshRenderer`, ...
+[2026-09-12T05:23:33.826Z] [DEBUG] assistant.message.received size=267
+[2026-09-12T05:23:33.914Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"`SphereCollider`, `NavMeshObstacle`)\n- **`RockPickup.prefab`** (Small rocks you can pi...
+[2026-09-12T05:23:33.914Z] [DEBUG] assistant.message.received size=276
+[2026-09-12T05:23:34.060Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" the ground)\n- **Ore Nodes**: `Iron.prefab`, `Gold.prefab`, `Coal.prefab`, `Mi","conte...
+[2026-09-12T05:23:34.060Z] [DEBUG] assistant.message.received size=259
+[2026-09-12T05:23:34.301Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"htril.prefab`, `Adamantite.prefab`\n\nTheir 3D meshes are fixed assets rather than dyna...
+[2026-09-12T05:23:34.301Z] [DEBUG] assistant.message.received size=274
+[2026-09-12T05:23:34.440Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" constructed procedural geometry.\n\n---\n\n### 2. Their Placement and Spawning is **Pr...
+[2026-09-12T05:23:34.440Z] [DEBUG] assistant.message.received size=286
+[2026-09-12T05:23:34.562Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" where rocks appear across the map is fully procedural:\n\n1. **Noise-Based Distributio...
+[2026-09-12T05:23:34.562Z] [DEBUG] assistant.message.received size=291
+[2026-09-12T05:23:34.703Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"`):**\n   - A `ResourceGenerator` (e.g., `GenerateRocks` and `GeneratePickupRocks`) sam...
+[2026-09-12T05:23:34.703Z] [DEBUG] assistant.message.received size=271
+[2026-09-12T05:23:34.874Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" 2D **Perlin noise maps** generated by `MapGenerator` using the game's seed (`GameManag...
+[2026-09-12T05:23:34.874Z] [DEBUG] assistant.message.received size=270
+[2026-09-12T05:23:34.992Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"GetSeed()`).\n   - It checks height constraints (`minSpawnHeight` to `maxSpawnHeight`) ...
+[2026-09-12T05:23:34.992Z] [DEBUG] assistant.message.received size=295
+[2026-09-12T05:23:35.195Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" curves to determine valid coordinate grids.\n\n2. **Terrain Snapping:**\n   - For ever...
+[2026-09-12T05:23:35.196Z] [DEBUG] assistant.message.received size=283
+[2026-09-12T05:23:35.332Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"` position, a downward raycast (`Physics.Raycast`) finds the terrain surface height to ...
+[2026-09-12T05:23:35.333Z] [DEBUG] assistant.message.received size=316
+[2026-09-12T05:23:35.528Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":"y = raycastHit.point.y`).\n\n3. **Procedural Variety:**\n   - Each spawned prefab is in...
+[2026-09-12T05:23:35.528Z] [DEBUG] assistant.message.received size=295
+[2026-09-12T05:23:35.684Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" rotation (`randomRotation`) and randomized scale (`randomScale`) so rocks don't all lo...
+[2026-09-12T05:23:35.684Z] [DEBUG] assistant.message.received size=294
+[2026-09-12T05:23:35.906Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" Management & Networking:**\n   - Spawned rocks are assigned a unique ID via `ResourceM...
+[2026-09-12T05:23:35.907Z] [DEBUG] assistant.message.received size=300
+[2026-09-12T05:23:35.995Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":false,"markdown":" destruction, and multiplayer sync) and sorted into chunk lists handled by `DrawChunks`...
+[2026-09-12T05:23:35.995Z] [DEBUG] assistant.message.received size=284
+[2026-09-12T05:23:36.331Z] [DEBUG] log Cloud->Relay:  {"$type":"CHAT_RESPONSE_V1","message_id":"7028716b-ebe5-4665-b734-d37c6ed47264","last_message":true,"markdown":"","context_usage_used_tokens":10304,"context_usage_max_tokens":512000}
+[2026-09-12T05:23:36.331Z] [DEBUG] assistant.message.received size=182
+[2026-09-12T05:23:36.332Z] [DEBUG] log Final chat response received - clearing session state
+[2026-09-12T05:28:09.022Z] [INFO] log Domain reload signal received from client editor-25348-p0iryn
+[2026-09-12T05:28:09.022Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-12T05:28:09.023Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-12T05:28:09.949Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-12T05:28:09.949Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-12T05:28:09.950Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-09-12T05:28:09.950Z] [WARN] connection.lost clientId=null
+[2026-09-12T05:28:09.950Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-09-12T05:28:09.950Z] [INFO] log Preserving active sessions during disconnection
+[2026-09-12T05:28:09.950Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-09-12T05:28:18.904Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-09-12T05:28:18.904Z] [INFO] log Unity client connected with ID: editor-25348-5v2h59 (relay 1.0.12-build.99)
+[2026-09-12T05:28:18.904Z] [INFO] connection.established clientId=editor-25348-5v2h59 port=9001
+[2026-09-12T05:29:13.922Z] [INFO] log Cloud WS close event: seqId=1, current sessionSequenceId=1, code=1006
+[2026-09-12T05:29:13.923Z] [INFO] log Cloud session disconnected: code=1006, purpose="Unable to reach the server — please check your internet connection and try again", reason=Connection ended, wasConnected=true
+[2026-09-12T14:10:04.374Z] [INFO] log Domain reload signal received from client editor-25348-5v2h59
+[2026-09-12T14:10:04.375Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-12T14:10:04.375Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-12T14:10:06.150Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-09-12T14:10:06.150Z] [DEBUG] acp.queue.pause depth=0
+[2026-09-12T14:10:06.150Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-09-12T14:10:06.151Z] [WARN] connection.lost clientId=null
+[2026-09-12T14:10:06.151Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-09-12T14:10:06.151Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-09-12T14:13:06.164Z] [INFO] log Auto-shutdown timer fired after 180s inactivity, shutting down: Dedicated client disconnected
+[2026-09-12T14:13:06.164Z] [INFO] log Shutdown: Initiating graceful shutdown: Dedicated client disconnected
+[2026-09-12T14:24:17.437Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=25348
+[2026-09-12T14:24:17.438Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[2026-09-12T14:24:17.462Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=194 bundledCAs=145
+[2026-09-12T14:24:17.462Z] [INFO] log Starting relay server...
+[2026-09-12T14:24:17.463Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","25348","--shutdown-delay","180","--log-dir","E:\\VSCodeProjects\\Repos\\MuckedUp\\Logs"]
+[2026-09-12T14:24:17.463Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"25348","shutdownDelaySeconds":180}
+[2026-09-12T14:24:17.464Z] [INFO] log Initializing relay components...
+[2026-09-12T14:24:17.464Z] [INFO] log Creating RelayEditor...
+[2026-09-12T14:24:17.472Z] [INFO] log WebSocket server started
+[2026-09-12T14:24:17.473Z] [INFO] log Relay server initialization completed
+[2026-09-12T14:24:17.473Z] [INFO] log MCP Client initialized at port: 9002
+[2026-09-12T14:24:17.485Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-09-12T14:24:17.513Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-09-12T14:24:17.844Z] [INFO] log Unity client connected with ID: editor-25348-bric84 (relay 1.0.12-build.99)
+[2026-09-12T14:24:17.844Z] [INFO] connection.established clientId=editor-25348-bric84 port=9001
+[2026-09-12T14:24:17.891Z] [INFO] log Loaded 1 credentials from keychain
