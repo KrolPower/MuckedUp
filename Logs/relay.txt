@@ -8887,3 +8887,7 @@
 [2026-09-12T20:26:44.737Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
 [2026-09-12T20:26:44.782Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
 [2026-09-12T20:26:44.783Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-09-12T20:36:20.616Z] [DEBUG] log Cloud->Relay:  {"$type":"SERVER_DISCONNECT_V1","disconnect_reason":{"type":"HAPPY_PATH"}}
+[2026-09-12T20:36:20.617Z] [DEBUG] assistant.message.received size=74
+[2026-09-12T20:36:20.618Z] [INFO] log Cloud WS close event: seqId=11, current sessionSequenceId=11, code=1000
+[2026-09-12T20:36:20.619Z] [INFO] log Cloud session disconnected: code=1000, purpose="Normal closure — cloud backend finished streaming and closed the connection", reason=Idle timeout, wasConnected=true
