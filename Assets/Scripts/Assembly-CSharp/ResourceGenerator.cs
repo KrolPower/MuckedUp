@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -94,16 +94,47 @@ public class ResourceGenerator : MonoBehaviour
 
 	private GameObject SpawnTree(Vector3 pos)
 	{
-		Quaternion rotation = Quaternion.Euler((float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.x * 2f, (float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.y * 2f, (float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.z * 2f);
-		float num = (float)this.randomGen.NextDouble() * (this.randomScale.y - this.randomScale.x);
-		Vector3 vector = Vector3.one * (this.randomScale.x + num);
+		float rotX = this.randomXRotation ? ((this.randomRotation.x != 0f) ? (float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.x * 2f : (float)this.randomGen.NextDouble() * 360f) : 0f;
+		float rotY = this.randomYRotation ? ((this.randomRotation.y != 0f) ? (float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.y * 2f : (float)this.randomGen.NextDouble() * 360f) : 0f;
+		float rotZ = this.randomZRotation ? ((this.randomRotation.z != 0f) ? (float)(this.randomGen.NextDouble() - 0.5) * this.randomRotation.z * 2f : (float)this.randomGen.NextDouble() * 360f) : 0f;
+		Quaternion rotation = Quaternion.Euler(rotX, rotY, rotZ);
+
+		Vector3 scale;
+		if (!this.enableRandomScale)
+		{
+			if (this.uniformScale)
+			{
+				float baseS = this.randomScale.x != 0f ? this.randomScale.x : 1f;
+				scale = Vector3.one * baseS;
+			}
+			else
+			{
+				scale = this.minScale != Vector3.zero ? this.minScale : (this.randomScale.x != 0f ? Vector3.one * this.randomScale.x : Vector3.one);
+			}
+		}
+		else if (this.uniformScale)
+		{
+			float num = (float)this.randomGen.NextDouble() * (this.randomScale.y - this.randomScale.x);
+			scale = Vector3.one * (this.randomScale.x + num);
+		}
+		else
+		{
+			Vector3 min = (this.minScale != Vector3.zero && this.minScale != Vector3.one) ? this.minScale : new Vector3(this.randomScale.x, this.randomScale.x, this.randomScale.x);
+			Vector3 max = (this.maxScale != Vector3.zero && this.maxScale != Vector3.one) ? this.maxScale : new Vector3(this.randomScale.y, this.randomScale.y, this.randomScale.y);
+
+			float sx = Mathf.Lerp(min.x, max.x, (float)this.randomGen.NextDouble());
+			float sy = Mathf.Lerp(min.y, max.y, (float)this.randomGen.NextDouble());
+			float sz = Mathf.Lerp(min.z, max.z, (float)this.randomGen.NextDouble());
+			scale = new Vector3(sx, sy, sz);
+		}
+
 		GameObject gameObject = Instantiate<GameObject>(this.FindObjectToSpawn(this.resourcePrefabs, this.totalWeight), pos, rotation);
-		gameObject.transform.localScale = vector;
+		gameObject.transform.localScale = scale;
 		gameObject.GetComponentInChildren<SharedObject>().SetId(ResourceManager.Instance.GetNextId());
 		HitableResource component = gameObject.GetComponent<HitableResource>();
 		if (component)
 		{
-			component.SetDefaultScale(vector);
+			component.SetDefaultScale(scale);
 			component.PopIn();
 		}
 		gameObject.SetActive(false);
@@ -147,10 +178,21 @@ public class ResourceGenerator : MonoBehaviour
 
 	public NoiseData noiseData;
 
-	[Header("Variety")]
-	public Vector3 randomRotation;
+	[Header("Rotation Variety")]
+	public bool randomXRotation = true;
+	public bool randomYRotation = true;
+	public bool randomZRotation = true;
+	public Vector3 randomRotation = new Vector3(360f, 360f, 360f);
 
-	public Vector2 randomScale;
+	[Header("Scale Variety")]
+	public bool enableRandomScale = true;
+	public bool uniformScale = true;
+	[Tooltip("Scale range (X = Min, Y = Max)")]
+	public Vector2 randomScale = new Vector2(1f, 1f);
+	[Tooltip("Per-axis Min Scale when non-uniform")]
+	public Vector3 minScale = Vector3.one;
+	[Tooltip("Per-axis Max Scale when non-uniform")]
+	public Vector3 maxScale = Vector3.one;
 
 	public int randPos = 12;
 
