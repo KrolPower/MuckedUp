@@ -1,22 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.10f1 (feeafc12a938) revision 16706300'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) Core' Language: 'en' Physical Memory: 131008 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2026-09-12T15:28:32.3684316Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32189 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-12T05:23:13Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris" at "2026-09-12T05:23:13.8881535Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22500, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              8c335335a84b4afe9d70aa0d66b13dda
-  Correlation Id:          c15c83ef5a1edf8863b4ce8fd5f5aa8c
-  External correlation Id: 1115348416731193231
-  Machine Id:              fb+P/jlz4SyzpK/HkmqBMP/8Svc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-notifications" at "2026-09-12T05:23:14.0246406Z"
-[Licensing::Module] Licensing Background thread has ended after 0.14s
+Date: 2026-09-12T15:28:32Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.10f1\Editor\Unity.exe
@@ -26,11 +15,11 @@ C:\Program Files\Unity\Hub\Editor\6000.4.10f1\Editor\Unity.exe
 -name
 AssetImportWorker6
 -projectPath
-E:/VSCodeProjects/Repos/MuckedUp
+C:/Users/chris/Documents/VSCODEPROJECTS/REPOS/MuckedUp
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-43047
+58741
 -licensingIpc
 LicenseClient-chris
 -force-d3d12
@@ -42,8 +31,8 @@ LicenseClient-chris
 1
 -name
 AssetImport
-Successfully changed project path to: E:/VSCodeProjects/Repos/MuckedUp
-E:/VSCodeProjects/Repos/MuckedUp
+Successfully changed project path to: C:/Users/chris/Documents/VSCODEPROJECTS/REPOS/MuckedUp
+C:/Users/chris/Documents/VSCODEPROJECTS/REPOS/MuckedUp
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -79,16 +68,12 @@ E:/VSCodeProjects/Repos/MuckedUp
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [21552]  Target information:
+Player connection [15184]  Target information:
 
-Player connection [21552]  * "[IP] 192.168.4.25 [Port] 0 [Flags] 2 [Guid] 1492009379 [EditorId] 1492009379 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UCUF6KM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15184]  * "[IP] 192.168.4.28 [Port] 0 [Flags] 2 [Guid] 1134669915 [EditorId] 1134669915 [Version] 1048832 [Id] WindowsEditor(7,Asus-Z-2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21552]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1492009379 [EditorId] 1492009379 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UCUF6KM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [21552]  * "[IP] 169.254.123.165 [Port] 0 [Flags] 2 [Guid] 1492009379 [EditorId] 1492009379 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UCUF6KM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [21552] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15184] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15184] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -100,55 +85,74 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 17.73 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 4.81 ms.
+Refreshing native plugins compatible for Editor in 18.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 3.79 ms.
 Initialize engine version: 6000.4.10f1 (feeafc12a938)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/VSCodeProjects/Repos/MuckedUp/Assets
+[Subsystems] Discovering subsystems at path C:/Users/chris/Documents/VSCODEPROJECTS/REPOS/MuckedUp/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Renderer:        NVIDIA GeForce RTX 5080 Laptop GPU (ID=0x2c59)
     Vendor:          NVIDIA
-    VRAM:            11027 MB
-    App VRAM Budget: 10259 MB
-    Driver:          32.0.16.1047
+    VRAM:            16003 MB
+    App VRAM Budget: 15235 MB
+    Driver:          32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-chris"
+[Licensing::IpcConnector] LicenseClient-chris channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.4.10" at "2026-09-12T15:28:34.4638315Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1772, path: "C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d9d7d598bc0b412db7f72f776db86ba4
+  Correlation Id:          fd51f5d1309bfe5155c680cfca751b39
+  External correlation Id: 1013498986279453009
+  Machine Id:              qjKs8DFrk8EBF4sOshQ983V5ek0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chris-6000.4.10" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chris-6000.4.10-notifications" at "2026-09-12T15:28:34.475785Z"
+[Licensing::Module] Licensing Background thread has ended after 2.11s
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007640 seconds.
+Registered in 0.003000 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.595 seconds
-Domain Reload Profiling: 1777ms
-	BeginReloadAssembly (329ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (322ms)
-	LoadAllAssembliesAndSetupDomain (438ms)
-		LoadAssemblies (312ms)
-		AnalyzeDomain (422ms)
-			TypeCache.Refresh (421ms)
-				TypeCache.ScanAssembly (392ms)
-	FinalizeReload (597ms)
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (193ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (188ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (310ms)
+	FinalizeReload (757ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
+			InitializePlatformSupportModulesInManaged (82ms)
 			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -201,191 +205,328 @@ Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/Unity
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 9.40 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 21.63 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 13.46 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 27.28 ms, found 6 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.885 seconds
-Domain Reload Profiling: 4724ms
-	BeginReloadAssembly (292ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (165ms)
-	LoadAllAssembliesAndSetupDomain (1297ms)
-		LoadAssemblies (678ms)
-		AnalyzeDomain (781ms)
-			TypeCache.Refresh (637ms)
-				TypeCache.ScanAssembly (599ms)
-			BuildScriptInfoCaches (129ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2886ms)
+- Finished resetting the current domain, in  2.832 seconds
+Domain Reload Profiling: 4807ms
+	BeginReloadAssembly (332ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (191ms)
+	LoadAllAssembliesAndSetupDomain (1353ms)
+		LoadAssemblies (854ms)
+		AnalyzeDomain (676ms)
+			TypeCache.Refresh (519ms)
+				TypeCache.ScanAssembly (482ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2833ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (1872ms)
-			ProcessInitializeOnLoadMethodAttributes (496ms)
-			AfterProcessingInitializeOnLoad (37ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 12.00 ms, found 6 plugins.
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (292ms)
+			ProcessInitializeOnLoadAttributes (1724ms)
+			ProcessInitializeOnLoadMethodAttributes (521ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 17.68 ms, found 6 plugins.
 Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9062 unused Assets / (19.8 MB). Loaded Objects now: 9645.
-Memory consumption went from 192.6 MB to 172.8 MB.
-Total: 27.201200 ms (FindLiveObjects: 1.179500 ms CreateObjectMapping: 2.195400 ms MarkObjects: 16.928300 ms  DeleteObjects: 6.895800 ms)
+Unloading 9062 unused Assets / (18.8 MB). Loaded Objects now: 9643.
+Memory consumption went from 192.9 MB to 174.0 MB.
+Total: 34.607100 ms (FindLiveObjects: 1.743600 ms CreateObjectMapping: 1.786700 ms MarkObjects: 22.284100 ms  DeleteObjects: 8.785900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29291.758956 seconds.
-  path: Assets/PrefabInstance/Fireball.prefab
-  importAddress: Guid(33478948fa0f1434992c921ac1d3be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/Fireball.prefab using Guid(33478948fa0f1434992c921ac1d3be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '414cd9264fbdea396bdbc2fc76fdf046') in 0.1639392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f651f1a35c7c52809dbb086cf8cc8c5 DependenciesID=25895e00397f185719421b9ece7de2f5 StaticDependenciesID=0d455d1c9cb0c0503d6155a613cc10e5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+  Time since last request: 2719.202125 seconds.
+  path: Assets/PrefabInstance/Adamantite.prefab
+  importAddress: Guid(13c831bc9c646a34bab72a254f3531b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Adamantite.prefab using Guid(13c831bc9c646a34bab72a254f3531b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '10c7d778001814d0df68e8cfdc91da1e') in 0.8090278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40a0b07e1b37b21b56c7a1409d7c07fb DependenciesID=357d81dacebefdfc1e9ec45499ca6943 StaticDependenciesID=23610d1d2ec1a4b98cf3d2497f7f344d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 200
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.387041 seconds.
-  path: Assets/PrefabInstance/FlowerZone.prefab
-  importAddress: Guid(ce597a2d3c9662143ba81d1b83454c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/FlowerZone.prefab using Guid(ce597a2d3c9662143ba81d1b83454c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '496ec69acdc4b1e12089e2434c0e91ef') in 0.0035093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=875b239f4e0dc30d7bf25a7235624ce1 DependenciesID=68b81ca1ef241595a4b2a0aa64a8b8c7 StaticDependenciesID=a2c32d7d5456b24c4eb546d7f49e92bb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000069 seconds.
+  path: Assets/PrefabInstance/Coal.prefab
+  importAddress: Guid(cb48422237396b1429ea94488d724388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Coal.prefab using Guid(cb48422237396b1429ea94488d724388) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '37491dcaaab7840eebc6a2fad64c825a') in 0.2478898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8832b7a99aa0cdb5089f9092cb082720 DependenciesID=020c11d2499b53ea827f43667dc3eb22 StaticDependenciesID=b03fc45da886dcacb7d7563ced185514 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 206
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.125613 seconds.
-  path: Assets/PrefabInstance/GoblinBlood.prefab
-  importAddress: Guid(1b0624c6c5d78e34e80aacb7176a2424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/GoblinBlood.prefab using Guid(1b0624c6c5d78e34e80aacb7176a2424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2ebdaf4e37187b2fe42ee331c7e5ebe0') in 0.0681079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=447a9f81064d62a5ab5b03be215922cd DependenciesID=fc45d1df33b244312aceb3720a4d6e84 StaticDependenciesID=920bbeb8f6ddd13d9e66a4ce652e3b75 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 0.000073 seconds.
+  path: Assets/PrefabInstance/DragonHitBoat.prefab
+  importAddress: Guid(7fac47f599f1f124abfcf39abe604442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DragonHitBoat.prefab using Guid(7fac47f599f1f124abfcf39abe604442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '22c96794e78e3142ab8e898f60452a37') in 0.2582846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40b610baa61ccc64245261afdb11bfdc DependenciesID=532212a9924dd680673e4737208695a2 StaticDependenciesID=ce4a3b2f9d4cc5e01d25b4deb1259ad3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.063314 seconds.
-  path: Assets/PrefabInstance/Grave.prefab
-  importAddress: Guid(1ed8eb955c2c7ef40b4cdbe94eb8ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/Grave.prefab using Guid(1ed8eb955c2c7ef40b4cdbe94eb8ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd3ce7c2f0cd2a9690364efca63031029') in 0.1112847 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95180e027f9fa21305a25af59a420552 DependenciesID=3cb220d6aca9bffdf04b95c1710c41b2 StaticDependenciesID=e6527c176c9ecf31924b267f4695f8e8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+  Time since last request: 0.000045 seconds.
+  path: Assets/PrefabInstance/BossShrineGronk.prefab
+  importAddress: Guid(de014c08e5cce514b948153091a0e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/BossShrineGronk.prefab using Guid(de014c08e5cce514b948153091a0e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b850e132f5398f8c73f8ea05ebae08c') in 0.4419403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e489c43e49694585ebe648d31386437 DependenciesID=41f062acd97914335398fc76bfead2a2 StaticDependenciesID=2a420fbb74ba2e18cb0581d4a663b441 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 742
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.215552 seconds.
-  path: Assets/PrefabInstance/GronkProjectileHit.prefab
-  importAddress: Guid(f969725cae080844fa0352f1871b01dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/GronkProjectileHit.prefab using Guid(f969725cae080844fa0352f1871b01dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6c059abcc601e2eb98ce6d6e4547cbd3') in 0.04095 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc51803d6511d130526f6778330358ba DependenciesID=7c9c3adfdc5ec6371c47fad0ea829309 StaticDependenciesID=4ee53356e97564ef578e9496ba07a265 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+  Time since last request: 0.000080 seconds.
+  path: Assets/PrefabInstance/DragonRoar.prefab
+  importAddress: Guid(59732c2f8e90d61469f35a72e3ae6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DragonRoar.prefab using Guid(59732c2f8e90d61469f35a72e3ae6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '59f9e82e896019c893dd6b189a216363') in 0.0043876 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa5081fb8a071c1ef21f7dafc7ce8a71 DependenciesID=d2ba158d632c07835614fdcfc9ca0b66 StaticDependenciesID=9105a2510b8bfbad26ea4b5f875bcb96 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.876195 seconds.
-  path: Assets/PrefabInstance/GuardianHit.prefab
-  importAddress: Guid(6f3d17385e86c2143a8bc09d812ce3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/GuardianHit.prefab using Guid(6f3d17385e86c2143a8bc09d812ce3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '908dd657a062f66c6ca9d226ec5116ff') in 0.0388068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f65b01a69ee83f7cff9472bec4fced9c DependenciesID=df21b47ca85deda1c97e191f553d40fb StaticDependenciesID=3cf98362fc106944c791ea3f1350b606 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+  Time since last request: 0.000030 seconds.
+  path: Assets/PrefabInstance/EnemyHitFxJuice.prefab
+  importAddress: Guid(5dae518b18b68a34f845dc95348009a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/EnemyHitFxJuice.prefab using Guid(5dae518b18b68a34f845dc95348009a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '000c242294285fa5d653edb2a47ef142') in 0.0386868 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c712dbdc03596a15195df88ab1d0156d DependenciesID=1a63cc25adfc44bcbba518f4a99b8366 StaticDependenciesID=530f697b6f2908f84b01990d8568cab5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.301696 seconds.
-  path: Assets/PrefabInstance/HitEffect.prefab
-  importAddress: Guid(2dab8043efff60d40bb0f384580fa359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/HitEffect.prefab using Guid(2dab8043efff60d40bb0f384580fa359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e4a1b7662cd6c1fc415f773df26a3393') in 0.0029199 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c095fa7ca135ff2fd2ae9bc2408f8d4b DependenciesID=8496f377662b70b46b20b68e311edfbb StaticDependenciesID=e803a2222c915a24e18dbfd2028ddd42 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.577544 seconds.
-  path: Assets/PrefabInstance/House_Looter.prefab
-  importAddress: Guid(f4afac6cdef8ec34b8bd08c1fb37c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/House_Looter.prefab using Guid(f4afac6cdef8ec34b8bd08c1fb37c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd3d5a2675ab77432e4fc25b69edb6fef') in 0.3238582 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19c87266d8ac8f4d6e45cad5c5536a8c DependenciesID=8323e425f8cd8597a6d2d723d8db1818 StaticDependenciesID=2f37acae1b53846abf196d13f97d9288 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 345
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.004383 seconds.
-  path: Assets/PrefabInstance/InteractUI.prefab
-  importAddress: Guid(ab11598c68c426e42ad12a5a16922d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/InteractUI.prefab using Guid(ab11598c68c426e42ad12a5a16922d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d7b8e6f664e2c627e0005c855ca76c8') in 0.0155859 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b17fee5af0b58ee0cc36e26712f7da0e DependenciesID=fd3a54e3d5ce88b12fff76ab28da76e0 StaticDependenciesID=c4b8cf029e435d5dcc87f08d2d4dbf4e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.632012 seconds.
-  path: Assets/PrefabInstance/ItemUnlocked.prefab
-  importAddress: Guid(cf05060f19858ca4dbd8f1c60e1d7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/ItemUnlocked.prefab using Guid(cf05060f19858ca4dbd8f1c60e1d7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '316eac7e2d992dc731ab672f27aed2df') in 0.0179977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f0ddad4c2551872cddf370e229c0774 DependenciesID=71f85ab1d5d5cabc9f8b33b54d22ea73 StaticDependenciesID=d7499feb6720d5074aa45f432e4f879c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084301 seconds.
-  path: Assets/PrefabInstance/LightningHitFx.prefab
-  importAddress: Guid(7b7d567a75e62c54c920d0bd35afbcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/LightningHitFx.prefab using Guid(7b7d567a75e62c54c920d0bd35afbcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea4f37958feda1436ea3d0d0cb831f65') in 0.0188522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a89a850367b82cf48f5a94c2bf2737e DependenciesID=88b67183137218129b140ea02bc4f3df StaticDependenciesID=be60cf662eb7272d2d0e41691eee4fc7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+  Time since last request: 0.000047 seconds.
+  path: Assets/PrefabInstance/Arrow.prefab
+  importAddress: Guid(13f32a6915e1b644fa01ca73faca4db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Arrow.prefab using Guid(13f32a6915e1b644fa01ca73faca4db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '34c0f0e23c29f13190ad45f921f5e3b8') in 0.1108943 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=022de543c0147eb54dbfa90f0480b009 DependenciesID=ca932f7210a139c3e0e0743a212ad027 StaticDependenciesID=60df0361f05a50496f310cb84793bb5f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/PrefabInstance/LootChestBlue.prefab
-  importAddress: Guid(a7e95584b81c40b4d8ee91b832fe138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/LootChestBlue.prefab using Guid(a7e95584b81c40b4d8ee91b832fe138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '849adb83b852c8cd1bb87a74222e7738') in 0.1787367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a19c451fc6eb3dfbb7f4c971df54552e DependenciesID=858d93a67342306a12ff68465f2a76c2 StaticDependenciesID=05eb6a3becf04a8026ded68b929e23a6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+  path: Assets/PrefabInstance/ControlSetting.prefab
+  importAddress: Guid(e20b29e7cb9ad314cbde735f7083f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/ControlSetting.prefab using Guid(e20b29e7cb9ad314cbde735f7083f2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bf5de4830f2a19c981cc0c314e0ae21d') in 0.0360803 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=804dc84a1cb9bc287f93eb12fe8a3b25 DependenciesID=8fa5cb45a3f83ea0da13c5be104fcc8d StaticDependenciesID=cd617cb5cb6765b4f49c1295dc1bd8f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.641144 seconds.
-  path: Assets/PrefabInstance/LootChestOrange.prefab
-  importAddress: Guid(afb3761b6ac302f4bade58fe7b68e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/LootChestOrange.prefab using Guid(afb3761b6ac302f4bade58fe7b68e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '015cb1c4ff1a6ae0984e5555673b522b') in 0.193269 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=968a41bc5e64c594f40169130dd09723 DependenciesID=6cbc03d6d6e2d8352a63b823db8e9e3c StaticDependenciesID=ccd71aa49d6ead243a79ed972d7316db 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+  Time since last request: 0.000031 seconds.
+  path: Assets/PrefabInstance/DaveLilAttack.prefab
+  importAddress: Guid(adc7efa37deab0c44b9d473143bddc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DaveLilAttack.prefab using Guid(adc7efa37deab0c44b9d473143bddc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7cc57ba3f5a47c117cd0abde10ff463a') in 0.0358774 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25747968fbf415835044f72f72e7d19c DependenciesID=f544adb68619dba6bfbdb7c5b9558569 StaticDependenciesID=313558266eeb916263f61eb5ddd989b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PrefabInstance/MobZone.prefab
-  importAddress: Guid(591bae076e060864792d375d4318dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/MobZone.prefab using Guid(591bae076e060864792d375d4318dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '81b18950fcebf12f40ab316ccafb1d44') in 0.0666058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4386a4ff326eeba637ee4fa761796b25 DependenciesID=75583cd9496495f1b5e04a5762cb3bbb StaticDependenciesID=da6be42927bcb094234c9b878852634b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 331
+  Time since last request: 0.000053 seconds.
+  path: Assets/PrefabInstance/Birch.prefab
+  importAddress: Guid(e5d08adc67551ea499d72c9d560888a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Birch.prefab using Guid(e5d08adc67551ea499d72c9d560888a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6879393720d485c1f4b66626e82c6dfb') in 0.5119487 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3940aa4b9ad9e82583c76cd0c703a4f DependenciesID=6b76c852fb98ceccbcf8e6783a0127eb StaticDependenciesID=315803911321c65bee9aa92d495e5759 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 213
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.606322 seconds.
-  path: Assets/PrefabInstance/MushroomSus.prefab
-  importAddress: Guid(56644c47090b93042999e5d00cf18b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/MushroomSus.prefab using Guid(56644c47090b93042999e5d00cf18b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0ba3569223263611069fd51b5555dc8f') in 0.1462679 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d56606ac6bf41877a03f08826a932c9 DependenciesID=61f3437bb331b0d5c05ddf081e6b759c StaticDependenciesID=91114db6f8a040064a34bc2c1eebae66 
+  Time since last request: 0.000068 seconds.
+  path: Assets/PrefabInstance/BoneProjectile.prefab
+  importAddress: Guid(650c08d3f39553a4aa3f7397760663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/BoneProjectile.prefab using Guid(650c08d3f39553a4aa3f7397760663bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dd890d20d0a18a4c3ba48244ccb28178') in 0.0394056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28c993f33e4e00bb88e3dd38e3ede47d DependenciesID=9770766c8c50259ffc2d39e05d04a99c StaticDependenciesID=c9f5e55b66822fbb69740e83951b9a8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.907584 seconds.
+  path: Assets/PrefabInstance/Fireball.prefab
+  importAddress: Guid(33478948fa0f1434992c921ac1d3be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Fireball.prefab using Guid(33478948fa0f1434992c921ac1d3be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'abaabbf8771572a492024fee34c60066') in 0.1276122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e2322ec3b852f2d4750e400b2db954d DependenciesID=47fb88ef3dc3202b3fabbd2d4a4f32b9 StaticDependenciesID=0d455d1c9cb0c0503d6155a613cc10e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PrefabInstance/Gold.prefab
+  importAddress: Guid(448131161fda8224ab806ae735689882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Gold.prefab using Guid(448131161fda8224ab806ae735689882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3a2b597458c03dfe17ab705a3ba9bfac') in 0.2506914 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81be4221afcaa3b35def4c63a06f6d34 DependenciesID=a1fe524128cb02ae382a74f8f76fa2b0 StaticDependenciesID=ab80d87cde51a90ef0cfa7e9a71bba7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 196
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PrefabInstance/FletchingTable.prefab
+  importAddress: Guid(5f807c7b0eccd27408dcd211bb264856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/FletchingTable.prefab using Guid(5f807c7b0eccd27408dcd211bb264856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0a12d3fac0269262c380702ec7b00142') in 0.1022902 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f928718fa7beb57671f563c27bae01bf DependenciesID=06f4cd9fe8875ca55282407f0065ef92 StaticDependenciesID=0023c29e464f2795b18d37c961f22e56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PrefabInstance/Flower.prefab
+  importAddress: Guid(0ecfd8f0519bfad4fb5942bd14eb76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Flower.prefab using Guid(0ecfd8f0519bfad4fb5942bd14eb76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fabe649afedd26c74a7b0b6b91bf9286') in 0.14655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ee5c2b5ddeefbaf4d624843cb68abda DependenciesID=4a30de3c262745ff85aaf428726acde2 StaticDependenciesID=4f8d257633f28364cc8eb3e5b541d616 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.389914 seconds.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PrefabInstance/FlowerZone.prefab
+  importAddress: Guid(ce597a2d3c9662143ba81d1b83454c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/FlowerZone.prefab using Guid(ce597a2d3c9662143ba81d1b83454c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '496ec69acdc4b1e12089e2434c0e91ef') in 0.0042366 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=875b239f4e0dc30d7bf25a7235624ce1 DependenciesID=68b81ca1ef241595a4b2a0aa64a8b8c7 StaticDependenciesID=a2c32d7d5456b24c4eb546d7f49e92bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PrefabInstance/FireImpact.prefab
+  importAddress: Guid(e1b49b9489e07bf43bd1377a612544ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/FireImpact.prefab using Guid(e1b49b9489e07bf43bd1377a612544ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c8152f09850577ae363b3db9edec33a5') in 0.0543818 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32504ec81c3182c6e34bc956d7a8cd04 DependenciesID=7a16d551106f6237b81f9fe4db893078 StaticDependenciesID=076d40ad33a97a405dc17aefbd001fb4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.622312 seconds.
+  path: Assets/PrefabInstance/Gronk.prefab
+  importAddress: Guid(72d8c83a70e490e439b9af67d647d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Gronk.prefab using Guid(72d8c83a70e490e439b9af67d647d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5332d149838196fd47d1aa05dc466e2d') in 0.6147443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ec8b3a04b815996557852eeb38fa666 DependenciesID=91412bd53c279bd3cbbd8fcc2375d832 StaticDependenciesID=98b51e3459b602ed49a18bdf49050e52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 623
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PrefabInstance/House_Looter.prefab
+  importAddress: Guid(f4afac6cdef8ec34b8bd08c1fb37c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/House_Looter.prefab using Guid(f4afac6cdef8ec34b8bd08c1fb37c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '36a9bd4bf404c1a811fe220f13fbc095') in 0.2978893 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=762e3b06f8c57df8ce086edf9fa344d0 DependenciesID=fd8ae104164f43db13edb9b8e674bf70 StaticDependenciesID=2f37acae1b53846abf196d13f97d9288 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 345
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.082219 seconds.
+  path: Assets/PrefabInstance/InteractUI.prefab
+  importAddress: Guid(ab11598c68c426e42ad12a5a16922d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/InteractUI.prefab using Guid(ab11598c68c426e42ad12a5a16922d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d7b8e6f664e2c627e0005c855ca76c8') in 0.0431137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b17fee5af0b58ee0cc36e26712f7da0e DependenciesID=fd3a54e3d5ce88b12fff76ab28da76e0 StaticDependenciesID=c4b8cf029e435d5dcc87f08d2d4dbf4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PrefabInstance/LightningEffect.prefab
+  importAddress: Guid(afea139117d6ee044802c04cb1feedfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LightningEffect.prefab using Guid(afea139117d6ee044802c04cb1feedfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b03579c94ea95ab8f2be359a53933c53') in 0.0329475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfc4e64811bb1259a8d06b8fffcc754f DependenciesID=9ade6a8a4e3f1a1a0e3cf417ac0f447e StaticDependenciesID=bb9145e3a72bdf4175fb5ae53eefe3f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PrefabInstance/ItemPickedup.prefab
+  importAddress: Guid(284e9adba53b2cc48bf1a47f53b09deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/ItemPickedup.prefab using Guid(284e9adba53b2cc48bf1a47f53b09deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e5db1ef03e4a91a5a581a25caecd8146') in 0.008603 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dea2daf9972677a5f125608f20426358 DependenciesID=90adea4d3fd70797e4e440708878db1b StaticDependenciesID=b505ed39ba0072b6381dabaa02af34b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PrefabInstance/LightningBall.prefab
+  importAddress: Guid(97f4446ea083ca94a9ccdb9e119abd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LightningBall.prefab using Guid(97f4446ea083ca94a9ccdb9e119abd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '74c86d8280dd7514d31a49a2b8be9e1c') in 0.0398258 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=269b79cc4334d6e068d671711d9a2ec9 DependenciesID=ecdb87c4a00929e37a73f86e9e35d017 StaticDependenciesID=c20175b23049104ea4f937a2011c68de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PrefabInstance/ItemUnlocked.prefab
+  importAddress: Guid(cf05060f19858ca4dbd8f1c60e1d7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/ItemUnlocked.prefab using Guid(cf05060f19858ca4dbd8f1c60e1d7b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '316eac7e2d992dc731ab672f27aed2df') in 0.023215 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f0ddad4c2551872cddf370e229c0774 DependenciesID=71f85ab1d5d5cabc9f8b33b54d22ea73 StaticDependenciesID=d7499feb6720d5074aa45f432e4f879c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PrefabInstance/LightningDave.prefab
+  importAddress: Guid(0122be35bce0ee64b986074ff4ff9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LightningDave.prefab using Guid(0122be35bce0ee64b986074ff4ff9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fcf180072f0c6502c24a9f852d256039') in 0.3555904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae6e5a4ddba7bfe246cb6518061ff33d DependenciesID=0d93fe81437128c6d970e829898436e5 StaticDependenciesID=0913c12b7ff0a8147b4aa210bc75e2c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 405
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.509412 seconds.
+  path: Assets/PrefabInstance/LilDave.prefab
+  importAddress: Guid(cf6ce0e8f19b7e34d877fb7828773d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LilDave.prefab using Guid(cf6ce0e8f19b7e34d877fb7828773d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '946a5bcda1c70b1246b1b242c7bf82f2') in 0.4189625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e46838b8f8c977464ef79c60bd0286f6 DependenciesID=4c77bec7d98fdc4718f71d64a804f3b1 StaticDependenciesID=4d6e24d4bed9d7336b3a8a4236f4bca4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 332
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PrefabInstance/Mihtril.prefab
+  importAddress: Guid(e192175049d01c04eaf0daee82aca718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Mihtril.prefab using Guid(e192175049d01c04eaf0daee82aca718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dbdf87a2a277ef96d6fffd918cf6a45b') in 0.1252467 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f78b234018e73640359f03e9934eceb DependenciesID=e236ebf17678a2688a389620bd42e330 StaticDependenciesID=e147c5bcbc8ef6de929706d4893c6b06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 100
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.992004 seconds.
+  path: Assets/PrefabInstance/MushroomPink.prefab
+  importAddress: Guid(d7106438e85227241bcf460b22474770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/MushroomPink.prefab using Guid(d7106438e85227241bcf460b22474770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b2080f3be84d338732c5fb50abaaf044') in 0.352009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=023256a56152ba89bb6dc845ec73159a DependenciesID=8fcd8e8b7f5d2c6952dccd2e85e4a8a3 StaticDependenciesID=c64d0ad07dae9c271eb2102ee7ac4ac7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
   path: Assets/PrefabInstance/OnlinePlayer.prefab
   importAddress: Guid(a19ea38ab2ec68c4981969c0b625d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/OnlinePlayer.prefab using Guid(a19ea38ab2ec68c4981969c0b625d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7387aa448dd62351d64f03d5fa7e293b') in 0.0815517 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a866d240c630d58702314815b42fc83d DependenciesID=5967cc77166bd499f1a233c82d43bf31 StaticDependenciesID=615df547fb9876a7d427bdc40a24aff6 
+Start importing Assets/PrefabInstance/OnlinePlayer.prefab using Guid(a19ea38ab2ec68c4981969c0b625d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '92cb4cef995eee4600b7dac0dbd01681') in 0.1512723 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a2d7fa9f9db14140829713ac234c840 DependenciesID=5d5631ef629bf6635662a843cbcba78e StaticDependenciesID=615df547fb9876a7d427bdc40a24aff6 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005974 seconds.
+  Time since last request: 2.286542 seconds.
   path: Assets/PrefabInstance/Planks_floor.prefab
   importAddress: Guid(9ce5bfadbc1825b4e82a880cecabe26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/Planks_floor.prefab using Guid(9ce5bfadbc1825b4e82a880cecabe26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cc0ac484052f248711399da01220d386') in 0.0876738 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=895ea253d3cff094ce88de907445251d DependenciesID=bf5b4d2a5cdb077b198193148ec82c58 StaticDependenciesID=1052685082722ca3d7a2c1d7e5036021 
+Start importing Assets/PrefabInstance/Planks_floor.prefab using Guid(9ce5bfadbc1825b4e82a880cecabe26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3b1a36407f9dd0367e87a8231e268cad') in 0.1716661 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9887c204a8c99b05b4113dd3d41ff4a7 DependenciesID=94a9c1fffc6ce93c82f57724ceb98273 StaticDependenciesID=33ace09d06d6beda68c90301a6fffefc 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.041505 seconds.
-  path: Assets/PrefabInstance/Planks_Stairs.prefab
-  importAddress: Guid(d70ffa87ce6f6964e8a16c8df397f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabInstance/Planks_Stairs.prefab using Guid(d70ffa87ce6f6964e8a16c8df397f78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ccf2256165c279ca0babc367e573f994') in 0.0737151 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11e91189f59363d46682075cb4eb122c DependenciesID=4773f36dcd6df5ce94062acf369725f3 StaticDependenciesID=793f2ff05bdd02576841bf480265ef22 
+  Time since last request: 0.000056 seconds.
+  path: Assets/PrefabInstance/Planks_Roof.prefab
+  importAddress: Guid(3fff809bbe0377e42a48b5fcb937d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Planks_Roof.prefab using Guid(3fff809bbe0377e42a48b5fcb937d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'be1da843a19d7cb0d6321a524a09f103') in 0.1592042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76694479e72a6c427cc220ffa3d5b13d DependenciesID=ef57f0721019a8a960208a3f05c18f35 StaticDependenciesID=09491881ad340da6a815487dbe59a20f 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.685938 seconds.
+  path: Assets/PrefabInstance/Planks_WallHalf.prefab
+  importAddress: Guid(0153c6097bca8b94487d5b7c94c0acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Planks_WallHalf.prefab using Guid(0153c6097bca8b94487d5b7c94c0acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '03b4f7a6ae7894f54d9e5f69545c518b') in 0.1434606 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef1170d3699fdb268dded41a3327fa79 DependenciesID=32310429e7d185813431a35fb2c0e079 StaticDependenciesID=546a3742552028d48bfc80922246369f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PrefabInstance/PowerupUI.prefab
+  importAddress: Guid(7cbf1c5549033d745bb83817ea1425ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PowerupUI.prefab using Guid(7cbf1c5549033d745bb83817ea1425ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1bad3b23494b504475d15a908bc60c11') in 0.0184008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e39da6d8c0127e5b456e9faf08b8887 DependenciesID=3bc5352ec3bb9730af37dda2e4dd0d76 StaticDependenciesID=a7e95f193a02bedc8686c0d99480c273 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PrefabInstance/PlayerRagdoll.prefab
+  importAddress: Guid(cb598d14a373f2946baf1a1fdeafa011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PlayerRagdoll.prefab using Guid(cb598d14a373f2946baf1a1fdeafa011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1bb01b80606b09b91867bab9e2b810a8') in 0.0500454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2628e35edbe1a456f0cfa76cd458efe DependenciesID=f7999bac0b9bbeff5be7123dfaeb8cb5 StaticDependenciesID=d012f6f3405b9174c3a134d3ebd39717 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PrefabInstance/RespawnPrefab.prefab
+  importAddress: Guid(05caeaa578b965946a02aa8905c1c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/RespawnPrefab.prefab using Guid(05caeaa578b965946a02aa8905c1c0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1c060f6e07dde3c1f80599963abea009') in 0.0584119 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b802ee41c9d4001775d5c1f035ffef33 DependenciesID=724270c3a2236ff1bb1a642c42bdc792 StaticDependenciesID=c53077d92b2cf8dac70981ab34a66a61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
