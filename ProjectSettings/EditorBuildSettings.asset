@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Scenes/GameAfterLobby.unity
     guid: e2e6fddd3cfaa2245b40dca045d610ee
+  - enabled: 1
+    path: Assets/Scene/Scenes/MarketSquare.unity
+    guid: 42a99d21d189f1f4ba22fb172f323c33
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f,
       type: 2}

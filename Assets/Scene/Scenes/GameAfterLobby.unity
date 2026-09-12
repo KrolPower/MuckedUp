@@ -15536,7 +15536,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.46953195, g: 1, b: 0.6359131, a: 0.76538706}
+  m_FogColor: {r: 1, g: 0.86508393, b: 0.45234382, a: 0}
   m_FogMode: 3
   m_FogDensity: 0.0035
   m_LinearFogStart: 0
@@ -45901,7 +45901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: Lobby
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1930cdd393e8d1489a352cfbfd5af70, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: c91a79b6005a440439416cfc0738ad4c, type: 2}
@@ -47136,7 +47136,7 @@ MonoBehaviour:
   skybox: {fileID: 2100000, guid: 0f735383226fdb64a9f67bc47b210c36, type: 2}
   sunLight: {fileID: 1104}
   moonLight: {fileID: 1106}
-  dayFog: {r: 0.46953195, g: 1, b: 0.6359131, a: 0.76538706}
+  dayFog: {r: 1, g: 0.86508393, b: 0.45234382, a: 0}
   nightFog: {r: 0.03212886, g: 0.190873, b: 0.3584906, a: 0}
   waterFog: {r: 0, g: 0.08489328, b: 0.4622642, a: 0}
   waterGraph:
@@ -55498,12 +55498,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3070}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LeaveGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ReturnToMarketSquare
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

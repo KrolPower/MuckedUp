@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using Steamworks;
 using UnityEngine;
@@ -611,6 +611,22 @@ public class ClientSend : MonoBehaviour
 			{
 				packet.Write((int)boatPacket);
 				packet.Write(interactId);
+				ClientSend.SendTCPData(packet);
+			}
+		}
+		catch (Exception message)
+		{
+			Debug.Log(message);
+		}
+	}
+
+	public static void MarketSquarePlatform(bool onPlatform)
+	{
+		try
+		{
+			using (Packet packet = new Packet((int)ClientPackets.marketSquarePlatform))
+			{
+				packet.Write(onPlatform);
 				ClientSend.SendTCPData(packet);
 			}
 		}

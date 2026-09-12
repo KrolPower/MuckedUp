@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public enum ClientPackets
 {
@@ -41,4 +41,6 @@ public enum ClientPackets
     moveVehicle,
     enterVehicle,
     exitVehicle,
+    marketSquareCountdown,
+    marketSquarePlatform,
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
@@ -107,6 +107,7 @@ public class LocalClient : MonoBehaviour
             { (int)ServerPackets.exitVehicle, ClientHandle.ExitVehicle },
             { (int)ServerPackets.loadSave, ClientHandle.LoadSave },
             { (int)ServerPackets.dontDestroy, ClientHandle.DontDestroy },
+            { (int)ServerPackets.marketSquareCountdown, ClientHandle.MarketSquareCountdown },
         };
         Debug.Log("Initializing packets.");
     }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
@@ -149,6 +149,7 @@ public class Server
 			{ (int)ClientPackets.moveVehicle, ServerHandle.UpdateCar },
 			{ (int)ClientPackets.enterVehicle, ServerHandle.EnterVehicle },
 			{ (int)ClientPackets.exitVehicle, ServerHandle.ExitVehicle },
+			{ (int)ClientPackets.marketSquarePlatform, ServerHandle.MarketSquarePlatform },
 		};
 	}
 

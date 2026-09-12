@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using UnityEngine;
@@ -251,10 +251,6 @@ public class ClientHandle : MonoBehaviour
 
     public static void StartGame(Packet packet)
     {
-        if (NetworkController.Instance.loading)
-        {
-            return;
-        }
         LocalClient.instance.myId = packet.ReadInt(true);
         int seed = packet.ReadInt(true);
         int gameMode = packet.ReadInt(true);
@@ -262,9 +258,10 @@ public class ClientHandle : MonoBehaviour
         int difficulty = packet.ReadInt(true);
         int gameLength = packet.ReadInt(true);
         int multiplayer = packet.ReadInt(true);
+        string targetScene = packet.ReadString(true);
         GameManager.gameSettings = new GameSettings(seed, gameMode, friendlyFire, difficulty, gameLength, multiplayer);
         MonoBehaviour.print("Game settings successfully loaded");
-        MonoBehaviour.print("loading game scene, assigned id: " + LocalClient.instance.myId);
+        MonoBehaviour.print("loading game scene: " + targetScene + ", assigned id: " + LocalClient.instance.myId);
         int num = packet.ReadInt(true);
         string[] array = new string[num];
         for (int i = 0; i < num; i++)
@@ -273,7 +270,14 @@ public class ClientHandle : MonoBehaviour
             string text = packet.ReadString(true);
             array[i] = text;
         }
-        NetworkController.Instance.LoadGame(array);
+        if (NetworkController.Instance != null)
+        {
+            NetworkController.Instance.LoadGame(array, targetScene);
+        }
+        else
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(targetScene);
+        }
         ClientSend.StartedLoading();
     }
 
@@ -665,6 +669,27 @@ public class ClientHandle : MonoBehaviour
         else
         {
             ChatBox.Instance.AppendMessage($"<color=#{ColorUtility.ToHtmlStringRGB(Color.cyan)}>Breaking structures will now destroy their neighbors<color=white>");
+        }
+    }
+
+    public static void MarketSquareCountdown(Packet packet)
+    {
+        float secondsLeft = packet.ReadFloat(true);
+        int readyCount = packet.ReadInt(true);
+        int totalCount = packet.ReadInt(true);
+        if (secondsLeft > 0f)
+        {
+            if (MarketSquareUI.Instance != null)
+            {
+                MarketSquareUI.Instance.UpdateCountdown(secondsLeft, readyCount, totalCount);
+            }
+        }
+        else
+        {
+            if (MarketSquareUI.Instance != null)
+            {
+                MarketSquareUI.Instance.HideCountdown();
+            }
         }
     }
 }

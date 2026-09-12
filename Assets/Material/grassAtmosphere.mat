@@ -55,9 +55,9 @@ Material:
     - _WindStrength: 0.2
     - _ZWrite: 1
     m_Colors:
-    - _BottomColor: {r: 0.34728557, g: 0.60549897, b: 0.43606094, a: 0}
+    - _BottomColor: {r: 0.84188724, g: 0.54442996, b: 0.126382, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TopColor: {r: 0.5209284, g: 0.9082484, b: 0.6540914, a: 0}
+    - _TopColor: {r: 1.2628309, g: 0.8166449, b: 0.18957299, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

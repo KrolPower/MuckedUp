@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public enum ServerPackets
 {
@@ -65,4 +65,5 @@ public enum ServerPackets
     exitVehicle,
     loadSave,
     dontDestroy,
+    marketSquareCountdown,
 }

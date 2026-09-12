@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
@@ -195,7 +195,10 @@ public class SteamManager : MonoBehaviour
 		if (friend.Id != this.PlayerSteamId)
 		{
 			this.LobbyPartnerDisconnected = true;
-			LobbyVisuals.Instance.DespawnLobbyPlayer(friend);
+			if (LobbyVisuals.Instance != null)
+			{
+				LobbyVisuals.Instance.DespawnLobbyPlayer(friend);
+			}
 			try
 			{
 				SteamNetworking.CloseP2PSessionWithUser(friend.Id);
@@ -294,7 +297,10 @@ public class SteamManager : MonoBehaviour
 			this.leaveLobby();
 			return;
 		}
-		LobbyVisuals.Instance.OpenLobby(lobby);
+		if (LobbyVisuals.Instance != null)
+		{
+			LobbyVisuals.Instance.OpenLobby(lobby);
+		}
 		LocalClient.serverOwner = false;
 		this.originalLobbyOwnerId = lobby.Owner.Id.Value;
 		if (lobby.MemberCount != 1)
@@ -354,7 +360,10 @@ public class SteamManager : MonoBehaviour
 			this.lobbyOwnerSteamId = lobby.Owner.Id.Value;
 			this.AcceptP2P(this.lobbyOwnerSteamId);
 			this.LobbyPartnerDisconnected = false;
-			LobbyVisuals.Instance.SpawnLobbyPlayer(friend);
+			if (LobbyVisuals.Instance != null)
+			{
+				LobbyVisuals.Instance.SpawnLobbyPlayer(friend);
+			}
 		}
 		if (this.currentLobby.Owner.Id.Value == this.PlayerSteamId)
 		{
@@ -375,7 +384,7 @@ public class SteamManager : MonoBehaviour
 		{
 			Debug.Log("Steam lobby doesn't exist...");
 		}
-		if (!GameManager.instance)
+		if (LobbyVisuals.Instance != null)
 		{
 			LobbyVisuals.Instance.CloseLobby();
 		}

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Steamworks;
 using Steamworks.Data;
 using UnityEngine;
@@ -118,11 +118,11 @@ public class SteamLobby : MonoBehaviour
 			}
 			if (((client != null) ? client.player : null) != null)
 			{
-				MonoBehaviour.print("sending start game");
-				ServerSend.StartGame(client.player.id, gameSettings);
+				MonoBehaviour.print("sending start game to MarketSquare");
+				ServerSend.StartGame(client.player.id, gameSettings, "MarketSquare");
 			}
 		}
-		this.currentLobby.SetJoinable(false);
+		this.currentLobby.SetJoinable(true);
 		this.started = true;
 		MonoBehaviour.print("Starting game done");
 		LocalClient.serverOwner = true;
@@ -163,7 +163,7 @@ public class SteamLobby : MonoBehaviour
 		return gameSettings;
 	}
 
-	private Lobby currentLobby;
+	public Lobby currentLobby;
 
 	public static Dictionary<ulong, int> steamIdToClientId = new Dictionary<ulong, int>();
 

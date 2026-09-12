@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 
 public class DayCycle : MonoBehaviour
@@ -34,7 +34,7 @@ public class DayCycle : MonoBehaviour
 		this.SunLight();
 		float num3 = this.EvaluateWaterColor((DayCycle.time + 0.75f) % 1f);
 		Color fogColor = Color.Lerp(this.dayFog, this.nightFog, num3);
-		if (MoveCamera.Instance != null && MoveCamera.Instance.transform.position.y < World.Instance.water.position.y)
+		if (World.Instance != null && World.Instance.water != null && MoveCamera.Instance != null && MoveCamera.Instance.transform.position.y < World.Instance.water.position.y)
 		{
 			RenderSettings.fogDensity = 0.015f;
 			fogColor = this.waterFog;

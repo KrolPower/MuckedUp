@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using Steamworks;
 using UnityEngine;
@@ -46,11 +46,25 @@ public class GameManager : MonoBehaviour
 			DayCycle.dayDuration = 10f;
 			return;
 		}
-		if (NetworkController.Instance.networkType == NetworkController.NetworkType.Steam)
+		if (NetworkController.Instance != null)
 		{
-			base.StartCoroutine(this.GenerateWorldRoutine());
-			LoadingScreen.Instance.Show(0f);
-			DayCycle.dayDuration = (float)GameManager.gameSettings.DayLength();
+			string activeScene = SceneManager.GetActiveScene().name;
+			if (activeScene == "MarketSquare")
+			{
+				NetworkController.Instance.loading = false;
+				if (LoadingScreen.Instance != null)
+				{
+					LoadingScreen.Instance.Hide(0f);
+				}
+				ClientSend.PlayerFinishedLoading();
+				return;
+			}
+			if (NetworkController.Instance.networkType == NetworkController.NetworkType.Steam)
+			{
+				base.StartCoroutine(this.GenerateWorldRoutine());
+				LoadingScreen.Instance.Show(0f);
+				DayCycle.dayDuration = (float)GameManager.gameSettings.DayLength();
+			}
 		}
 	}
 
@@ -104,8 +118,14 @@ public class GameManager : MonoBehaviour
 	public void UpdateDay(int day)
 	{
 		this.currentDay = day;
-		this.dayUi.SetDay(day);
-		this.extraUi.UpdateDay(this.currentDay);
+		if (this.dayUi != null)
+		{
+			this.dayUi.SetDay(day);
+		}
+		if (this.extraUi != null)
+		{
+			this.extraUi.UpdateDay(this.currentDay);
+		}
 		if (GameManager.gameSettings.gameMode == GameSettings.GameMode.Versus)
 		{
 			ZoneController.Instance.NextDay(this.currentDay);
@@ -135,7 +155,7 @@ public class GameManager : MonoBehaviour
 		component.username = username;
 		component.color = color;
 		GameManager.players.Add(id, component);
-		if ((GameManager.gameSettings.gameMode == GameSettings.GameMode.Versus && id == LocalClient.instance.myId) || GameManager.gameSettings.gameMode != GameSettings.GameMode.Versus)
+		if (((GameManager.gameSettings.gameMode == GameSettings.GameMode.Versus && id == LocalClient.instance.myId) || GameManager.gameSettings.gameMode != GameSettings.GameMode.Versus) && this.extraUi != null)
 		{
 			this.extraUi.InitPlayerStatus(id, username, component);
 		}
@@ -308,19 +328,36 @@ public class GameManager : MonoBehaviour
 
 	public void StartGame()
 	{
-		LoadingScreen.Instance.Hide(0f);
-		this.lobbyCamera.SetActive(false);
+		if (NetworkController.Instance != null)
+		{
+			NetworkController.Instance.loading = false;
+		}
+		if (LoadingScreen.Instance != null)
+		{
+			LoadingScreen.Instance.Hide(0f);
+		}
+		if (this.lobbyCamera != null)
+		{
+			this.lobbyCamera.SetActive(false);
+		}
 		GameManager.state = GameManager.GameState.Playing;
-		if (LocalClient.serverOwner)
+		if (LocalClient.serverOwner && GameLoop.Instance != null)
 		{
 			GameLoop.Instance.StartLoop();
 		}
-		Hotbar.Instance.UpdateHotbar();
+		if (Hotbar.Instance != null)
+		{
+			Hotbar.Instance.UpdateHotbar();
+		}
 	}
 
 	public void DisconnectPlayer(int id)
 	{
-		if (GameManager.players[id] != null && GameManager.players[id].gameObject != null)
+		if (MarketSquarePlatformTrigger.Instance != null)
+		{
+			MarketSquarePlatformTrigger.Instance.RemovePlayer(id);
+		}
+		if (GameManager.players.ContainsKey(id) && GameManager.players[id] != null && GameManager.players[id].gameObject != null)
 		{
 			Destroy(GameManager.players[id].gameObject);
 			GameManager.players[id].dead = true;
@@ -416,14 +453,50 @@ public class GameManager : MonoBehaviour
 	private void ShowEndScreen()
 	{
 		GameManager.state = GameManager.GameState.GameOver;
-		this.gameoverUi.SetActive(true);
+		if (this.gameoverUi != null)
+		{
+			this.gameoverUi.SetActive(true);
+		}
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
 	}
 
 	public void ReturnToMenu()
 	{
-		SceneManager.LoadScene("TestSteamLobby");
+		ReturnToMarketSquare();
+	}
+
+	public void ReturnToMarketSquare()
+	{
+		if (NetworkController.Instance != null)
+		{
+			NetworkController.Instance.loading = false;
+		}
+
+		if (LocalClient.serverOwner)
+		{
+			if (SteamLobby.Instance != null && SteamLobby.Instance.currentLobby.Id.Value != 0)
+			{
+				SteamLobby.Instance.currentLobby.SetJoinable(true);
+			}
+
+			GameSettings settings = GameManager.gameSettings ?? new GameSettings(Random.Range(int.MinValue, int.MaxValue), GameSettings.GameMode.Survival, GameSettings.FriendlyFire.Off, GameSettings.Difficulty.Normal, GameSettings.GameLength.Short, GameSettings.Multiplayer.On);
+
+			foreach (Client client in Server.clients.Values)
+			{
+				if (client?.player != null)
+				{
+					client.player.ready = false;
+					client.player.loading = false;
+					client.player.dead = false;
+					ServerSend.StartGame(client.player.id, settings, "MarketSquare");
+				}
+			}
+		}
+		else
+		{
+			SceneManager.LoadScene("MarketSquare");
+		}
 	}
 
 	public List<Vector3> FindSurvivalSpawnPositions(int nPlayers)

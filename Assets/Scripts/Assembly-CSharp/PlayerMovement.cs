@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -147,6 +147,10 @@ public class PlayerMovement : MonoBehaviour
 
 	public bool IsUnderWater()
 	{
+		if (World.Instance == null || World.Instance.water == null)
+		{
+			return false;
+		}
 		float num = World.Instance.water.position.y;
 		return base.transform.position.y < num;
 	}

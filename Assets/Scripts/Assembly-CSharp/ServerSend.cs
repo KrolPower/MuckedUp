@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Steamworks;
 using UnityEngine;
@@ -170,7 +170,7 @@ public class ServerSend
         }
     }
 
-    public static void StartGame(int playerLobbyId, GameSettings settings)
+    public static void StartGame(int playerLobbyId, GameSettings settings, string targetScene = "GameAfterLobby")
     {
         using (Packet packet = new Packet((int)ServerPackets.startGame))
         {
@@ -181,6 +181,7 @@ public class ServerSend
             packet.Write((int)settings.difficulty);
             packet.Write((int)settings.gameLength);
 			packet.Write((int)settings.multiplayer);
+			packet.Write(targetScene);
             List<Player> list = new List<Player>();
             for (int i = 0; i < Server.clients.Values.Count; i++)
             {
@@ -735,6 +736,17 @@ public class ServerSend
         {
             packet.Write(playerId);
             ServerSend.SendTCPDataToAll(packet);
+        }
+    }
+
+    public static void MarketSquareCountdown(float secondsLeft, int readyCount, int totalCount)
+    {
+        using (Packet packet = new Packet((int)ServerPackets.marketSquareCountdown))
+        {
+            packet.Write(secondsLeft);
+            packet.Write(readyCount);
+            packet.Write(totalCount);
+            ServerSend.SendUDPDataToAll(packet);
         }
     }
 

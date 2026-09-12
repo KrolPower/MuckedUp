@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Steamworks.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,18 +18,22 @@ public class NetworkController : MonoBehaviour
 		DontDestroyOnLoad(base.gameObject);
 	}
 
-	public void LoadGame(string[] names)
+	public void LoadGame(string[] names, string sceneName = "GameAfterLobby")
 	{
 		this.loading = true;
 		this.playerNames = names;
+		this.targetScene = sceneName;
 		LoadingScreen.Instance.Show(1f);
 		StartLoadingScene();
 	}
 
 	private void StartLoadingScene()
 	{
-		SceneManager.LoadScene("GameAfterLobby");
+		string scene = string.IsNullOrEmpty(this.targetScene) ? "GameAfterLobby" : this.targetScene;
+		SceneManager.LoadScene(scene);
 	}
+
+	public string targetScene = "GameAfterLobby";
 
 	public NetworkController.NetworkType networkType;
 

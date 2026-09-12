@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -739,5 +739,27 @@ public class ServerHandle
         int id = packet.ReadInt();
         if (!ResourceManager.Instance.cars.ContainsKey(id)) return;
         ServerSend.ExitVehicle(fromClient, id);
+    }
+
+    public static void MarketSquarePlatform(int fromClient, Packet packet)
+    {
+        if (Server.clients[fromClient]?.player == null) return;
+        bool onPlatform = packet.ReadBool(true);
+        if (MarketSquarePlatformTrigger.Instance != null)
+        {
+            if (onPlatform)
+            {
+                MarketSquarePlatformTrigger.Instance.playersOnPlatform.Add(fromClient);
+            }
+            else
+            {
+                MarketSquarePlatformTrigger.Instance.playersOnPlatform.Remove(fromClient);
+            }
+
+            if (MarketSquareManager.Instance != null)
+            {
+                MarketSquareManager.Instance.OnPlayerPlatformStateChanged();
+            }
+        }
     }
 }

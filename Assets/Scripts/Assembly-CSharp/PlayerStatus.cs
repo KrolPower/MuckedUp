@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -250,7 +250,7 @@ public class PlayerStatus : MonoBehaviour
 
 	private void SlowUpdate()
 	{
-		if (this.player.playerCam.position.y < World.Instance.water.position.y)
+		if (World.Instance != null && World.Instance.water != null && this.player != null && this.player.playerCam != null && this.player.playerCam.position.y < World.Instance.water.position.y)
 		{
 			if (!this.underwaterAudio.enabled)
 			{
