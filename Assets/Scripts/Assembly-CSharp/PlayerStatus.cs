@@ -282,7 +282,7 @@ public class PlayerStatus : MonoBehaviour
             if (Physics.Raycast(Vector3.up * 500f, Vector3.down, out raycastHit, 1000f, GameManager.instance.whatIsGround))
             {
                 PlayerMovement.Instance.transform.position = raycastHit.point + Vector3.up * 2f;
-                PlayerMovement.Instance.GetRb().velocity = Vector3.zero;
+                PlayerMovement.Instance.GetRb().linearVelocity = Vector3.zero;
             }
         }
     }

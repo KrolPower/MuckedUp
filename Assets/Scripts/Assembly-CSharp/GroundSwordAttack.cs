@@ -8,9 +8,9 @@ public class GroundSwordAttack : MonoBehaviour
 		Debug.LogError("Spawned");
 		Vector3 forward = base.transform.forward;
 		forward.y = 0f;
-		this.rb.velocity = forward.normalized * this.projectile.bowComponent.projectileSpeed;
+		this.rb.linearVelocity = forward.normalized * this.projectile.bowComponent.projectileSpeed;
 		this.rb.angularVelocity = Vector3.zero;
-		this.rollAxis = Vector3.Cross(this.rb.velocity, Vector3.up);
+		this.rollAxis = Vector3.Cross(this.rb.linearVelocity, Vector3.up);
 		Debug.DrawLine(base.transform.position, base.transform.position + forward * 10f, Color.red, 10f);
 		base.GetComponent<Collider>().enabled = true;
 		if (this.child)
@@ -37,7 +37,7 @@ public class GroundSwordAttack : MonoBehaviour
 
 	private void Update()
 	{
-		this.rb.velocity = base.transform.forward * this.projectile.bowComponent.projectileSpeed;
+		this.rb.linearVelocity = base.transform.forward * this.projectile.bowComponent.projectileSpeed;
 		this.KeepRockGrounded();
 		this.SpinRock();
 	}

@@ -561,7 +561,7 @@ public class ClientSend : MonoBehaviour
 				packet.Write(ResourceManager.Instance.cars.First(kp => kp.Value == car).Key);
 				packet.Write(car.rb.angularVelocity);
 				packet.Write(car.lastVelocity);
-				packet.Write(car.rb.velocity);
+				packet.Write(car.rb.linearVelocity);
 				
 				packet.Write(car.rb.rotation);
 				packet.Write(car.rb.position);

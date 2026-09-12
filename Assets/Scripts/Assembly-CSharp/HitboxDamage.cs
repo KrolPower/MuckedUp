@@ -51,7 +51,7 @@ public class HitboxDamage : MonoBehaviour
 			this.playerHit = true;
 			ClientSend.PlayerHit((int)((float)this.baseDamage * this.multiplier), LocalClient.instance.myId, 0f, 0, base.transform.position);
 			PlayerMovement.Instance.grounded = false;
-			PlayerMovement.Instance.GetRb().velocity += this.pushPlayer;
+			PlayerMovement.Instance.GetRb().linearVelocity += this.pushPlayer;
 			PlayerMovement.Instance.PushPlayer();
 			return;
 		}

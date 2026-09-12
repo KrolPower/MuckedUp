@@ -14,7 +14,7 @@ public class OnlinePlayer : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		this.fallSpeed = Mathf.Abs(this.rb.velocity.y);
+		this.fallSpeed = Mathf.Abs(this.rb.linearVelocity.y);
 		Vector3 position = Vector3.Lerp(this.rb.position, this.desiredPos, Time.deltaTime * this.moveSpeed);
 		this.rb.MovePosition(position);
 	}
@@ -41,7 +41,7 @@ public class OnlinePlayer : MonoBehaviour
 	{
 		this.currentTorsoRotation = Mathf.Lerp(this.currentTorsoRotation, this.orientationX, Time.deltaTime * this.rotationSpeed);
 		this.upperBody.localRotation = Quaternion.Euler(this.currentTorsoRotation, this.upperBody.localRotation.y, this.upperBody.localRotation.z);
-		this.lastFallSpeed = this.rb.velocity.y;
+		this.lastFallSpeed = this.rb.linearVelocity.y;
 	}
 
 	private void FootSteps()
@@ -53,7 +53,7 @@ public class OnlinePlayer : MonoBehaviour
 		if (this.grounded)
 		{
 			float num = 1f;
-			float num2 = this.rb.velocity.magnitude;
+			float num2 = this.rb.linearVelocity.magnitude;
 			if (num2 > 20f)
 			{
 				num2 = 20f;
@@ -99,7 +99,7 @@ public class OnlinePlayer : MonoBehaviour
 
 	private void Animate()
 	{
-		float b = Mathf.Clamp(this.rb.velocity.magnitude * 0.1f, 0f, 1f);
+		float b = Mathf.Clamp(this.rb.linearVelocity.magnitude * 0.1f, 0f, 1f);
 		this.speed = Mathf.Lerp(this.speed, b, Time.deltaTime * 10f);
 		this.animator.SetBool("Grounded", this.grounded);
 		this.animator.SetFloat("FallSpeed", this.lastFallSpeed);

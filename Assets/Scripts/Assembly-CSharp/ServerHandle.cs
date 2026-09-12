@@ -705,7 +705,7 @@ public class ServerHandle
 		
         car.rb.angularVelocity = packet.ReadVector3();
         car.lastVelocity = packet.ReadVector3();
-        car.rb.velocity = packet.ReadVector3();
+        car.rb.linearVelocity = packet.ReadVector3();
 
         car.rb.rotation = packet.ReadQuaternion();
         car.rb.position = packet.ReadVector3();

@@ -34,7 +34,7 @@ public class ProjectileAttackNoGravity : MonoBehaviour
 		Vector3 a = Vector3.zero;
 		if (component)
 		{
-			a = VectorExtensions.XZVector(component.velocity);
+			a = VectorExtensions.XZVector(component.linearVelocity);
 		}
 		float timeToImpact = this.warningAttack.bowComponent.timeToImpact;
 		Vector3 vector2;
@@ -78,7 +78,7 @@ public class ProjectileAttackNoGravity : MonoBehaviour
 		Vector3 a = Vector3.zero;
 		if (component)
 		{
-			a = VectorExtensions.XZVector(component.velocity);
+			a = VectorExtensions.XZVector(component.linearVelocity);
 		}
 		float projectileSpeed = this.predictionProjectile.bowComponent.projectileSpeed;
 		Vector3 position2 = this.predictionPos.position;

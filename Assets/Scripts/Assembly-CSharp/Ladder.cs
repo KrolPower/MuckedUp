@@ -20,7 +20,7 @@ public class Ladder : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Local"))
 		{
-			PlayerMovement.Instance.GetRb().drag = 3f;
+			PlayerMovement.Instance.GetRb().linearDamping = 3f;
 			this.onLadder = true;
 		}
 	}
@@ -29,7 +29,7 @@ public class Ladder : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag("Local"))
 		{
-			PlayerMovement.Instance.GetRb().drag = 0f;
+			PlayerMovement.Instance.GetRb().linearDamping = 0f;
 			this.onLadder = false;
 		}
 	}

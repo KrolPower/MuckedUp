@@ -16,7 +16,7 @@ public class Arrow : MonoBehaviour
 
 	private void Update()
 	{
-		base.transform.rotation = Quaternion.LookRotation(this.rb.velocity);
+		base.transform.rotation = Quaternion.LookRotation(this.rb.linearVelocity);
 	}
 
 	private void OnCollisionEnter(Collision other)

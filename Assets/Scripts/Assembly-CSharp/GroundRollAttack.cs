@@ -7,8 +7,8 @@ public class GroundRollAttack : MonoBehaviour
 	{
 		Vector3 forward = base.transform.forward;
 		forward.y = 0f;
-		this.rb.velocity = forward * this.speed;
-		this.rollAxis = Vector3.Cross(this.rb.velocity, Vector3.up);
+		this.rb.linearVelocity = forward * this.speed;
+		this.rollAxis = Vector3.Cross(this.rb.linearVelocity, Vector3.up);
 		Debug.DrawLine(base.transform.position, base.transform.position + forward * 10f, Color.red, 10f);
 		Debug.LogError("collider: " + base.GetComponent<Collider>());
 		base.GetComponent<Collider>().enabled = true;

@@ -48,7 +48,7 @@ public class TestPlayerAnimations : MonoBehaviour
 
 	private void LateUpdate()
 	{
-		this.fallSpeed = this.rb.velocity.y;
+		this.fallSpeed = this.rb.linearVelocity.y;
 		MonoBehaviour.print("fallspeed: " + this.fallSpeed);
 	}
 

@@ -56,10 +56,10 @@ public class TestRagdoll : MonoBehaviour
 			rigidbody.isKinematic = false;
 			rigidbody.useGravity = true;
 		}
-		rigidbody.velocity = -dir.normalized * 8f;
+		rigidbody.linearVelocity = -dir.normalized * 8f;
 		rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
-		rigidbody.angularDrag = 1f;
-		rigidbody.drag = 0.2f;
+		rigidbody.angularDamping = 1f;
+		rigidbody.linearDamping = 0.2f;
 		p.gameObject.AddComponent<SphereCollider>().material = this.mat;
 		if (parent != null)
 		{
@@ -71,5 +71,5 @@ public class TestRagdoll : MonoBehaviour
 
 	private Transform cow;
 
-	public PhysicMaterial mat;
+	public PhysicsMaterial mat;
 }

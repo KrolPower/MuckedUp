@@ -123,14 +123,14 @@ public class Car : HitableResource
     = wheelPositions.All(sus => sus.grounded)
     && throttle == 0f
     && steering == 0f
-    && rb.velocity.magnitude < 1f;
+    && rb.linearVelocity.magnitude < 1f;
     }
 
     private void Movement()
     {
         drifting = false;
-        var vector = XZVector(rb.velocity);
-        var vector2 = base.transform.InverseTransformDirection(XZVector(rb.velocity));
+        var vector = XZVector(rb.linearVelocity);
+        var vector2 = base.transform.InverseTransformDirection(XZVector(rb.linearVelocity));
         acceleration = (lastVelocity - vector2) / Time.fixedDeltaTime;
         dir = Mathf.Sign(base.transform.InverseTransformDirection(vector).z);
         speed = vector.magnitude * 3.6f * dir;
@@ -163,7 +163,7 @@ public class Car : HitableResource
                 {
                     var num4 = Mathf.Clamp(Mathf.Abs(f) * 2.4f - num3, 0f, 1f);
                     num2 = Mathf.Clamp(1f - num4, 0.05f, 1f);
-                    var magnitude = rb.velocity.magnitude;
+                    var magnitude = rb.linearVelocity.magnitude;
                     drifting = true;
                     if (magnitude < 8f)
                     {
@@ -216,22 +216,22 @@ public class Car : HitableResource
     private void StandStill()
     {
         if (World.Instance.water.position.y > centerOfMass.position.y) {
-            rb.drag = 0f;
+            rb.linearDamping = 0f;
             if (wheelPositions.All(sus => sus.grounded)) {
-                rb.velocity *= underwaterBaseDrag;
+                rb.linearVelocity *= underwaterBaseDrag;
             } else {
-                var vel = rb.velocity;
+                var vel = rb.linearVelocity;
                 vel.x *= underwaterBaseDrag;
                 vel.y *= underwaterVerticalNonGroundedDrag;
                 vel.z *= underwaterBaseDrag;
-                rb.velocity = vel;
+                rb.linearVelocity = vel;
             }
             rb.angularVelocity *= underwaterAngularDrag;
             return;
         }
         if (Mathf.Abs(speed) >= 1f || !grounded || throttle != 0f)
         {
-            rb.drag = 0f;
+            rb.linearDamping = 0f;
             return;
         }
         var flag = true;
@@ -246,10 +246,10 @@ public class Car : HitableResource
         }
         if (flag)
         {
-            rb.drag = (1f - Mathf.Abs(speed)) * 30f;
+            rb.linearDamping = (1f - Mathf.Abs(speed)) * 30f;
             return;
         }
-        rb.drag = 0f;
+        rb.linearDamping = 0f;
     }
 
     private void Steering()
@@ -286,7 +286,7 @@ public class Car : HitableResource
             var hitHeight = suspension.hitHeight;
             var y = Mathf.Lerp(suspension.wheelObject.transform.localPosition.y, -hitHeight + num, Time.deltaTime * 20f);
             suspension.wheelObject.transform.localPosition = new Vector3(0f, y, 0f);
-            suspension.wheelObject.Rotate(Vector3.right, XZVector(rb.velocity).magnitude * 1f * dir);
+            suspension.wheelObject.Rotate(Vector3.right, XZVector(rb.linearVelocity).magnitude * 1f * dir);
             suspension.wheelObject.localScale = Vector3.one * (suspensionLength * 2f);
             suspension.transform.localScale = Vector3.one / base.transform.localScale.x;
         }

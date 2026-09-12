@@ -67,7 +67,7 @@ public class Gun : MonoBehaviour
 		{
 			return;
 		}
-		if (Mathf.Abs(this.rb.velocity.magnitude) < 4f || !PlayerMovement.Instance.grounded || PlayerMovement.Instance.IsCrouching())
+		if (Mathf.Abs(this.rb.linearVelocity.magnitude) < 4f || !PlayerMovement.Instance.grounded || PlayerMovement.Instance.IsCrouching())
 		{
 			this.desiredBob = Vector3.zero;
 			return;

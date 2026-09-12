@@ -764,7 +764,7 @@ public class ServerSend
             packet.Write(id);
             packet.Write(car.rb.angularVelocity);
             packet.Write(car.lastVelocity);
-            packet.Write(car.rb.velocity);
+            packet.Write(car.rb.linearVelocity);
 
             packet.Write(car.rb.rotation);
             packet.Write(car.rb.position);

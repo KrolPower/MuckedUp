@@ -259,7 +259,7 @@ public class MoveCamera : MonoBehaviour
         {
             return;
         }
-        if (Mathf.Abs(this.rb.velocity.magnitude) >= 4f && PlayerMovement.Instance.grounded)
+        if (Mathf.Abs(this.rb.linearVelocity.magnitude) >= 4f && PlayerMovement.Instance.grounded)
         {
             PlayerMovement.Instance.IsCrouching();
         }

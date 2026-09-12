@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         this.FootSteps();
-        this.fallSpeed = this.rb.velocity.y;
+        this.fallSpeed = this.rb.linearVelocity.y;
     }
 
 	public Vector2 GetInput()
@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
         this.sliding = true;
         base.transform.localScale = this.crouchScale;
         base.transform.position = new Vector3(base.transform.position.x, base.transform.position.y - 0.65f, base.transform.position.z);
-        if (this.rb.velocity.magnitude > 0.5f && this.grounded)
+        if (this.rb.linearVelocity.magnitude > 0.5f && this.grounded)
         {
             this.rb.AddForce(this.orientation.transform.forward * this.slideForce);
         }
@@ -114,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
         if (this.grounded)
         {
             float num = 1f;
-            float num2 = this.rb.velocity.magnitude;
+            float num2 = this.rb.linearVelocity.magnitude;
             if (num2 > 20f)
             {
                 num2 = 20f;
@@ -170,9 +170,9 @@ public class PlayerMovement : MonoBehaviour
         }
 		if (this.IsUnderWater() && (!flying || !noclip))
 		{
-			if (this.rb.drag <= 0f)
+			if (this.rb.linearDamping <= 0f)
 			{
-				this.rb.drag = 1f;
+				this.rb.linearDamping = 1f;
 			}
 			this.WaterMovement();
 			return;
@@ -200,7 +200,7 @@ public class PlayerMovement : MonoBehaviour
             var v = 0f;
             if (flyDown) v -= 1f;
             if (jumping) v += 1f;
-            rb.velocity = new Vector3(rb.velocity.x, v * Mathf.Max(vector.magnitude, 20f), rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, v * Mathf.Max(vector.magnitude, 20f), rb.linearVelocity.z);
         }
         float num3 = x;
         float num4 = y;
@@ -253,13 +253,13 @@ public class PlayerMovement : MonoBehaviour
         var moveSpeed = sprinting ? this.moveSpeed * 5f : this.moveSpeed;
         var forceZ = this.orientation.forward * num4 * moveSpeed * 0.02f * d2;
         var forceX = this.orientation.right * num3 * moveSpeed * 0.02f * d;
-        if (flying && ((x == 0 && y == 0) || Vector3.Dot((forceX + forceZ).normalized, rb.velocity.normalized) < 0))
+        if (flying && ((x == 0 && y == 0) || Vector3.Dot((forceX + forceZ).normalized, rb.linearVelocity.normalized) < 0))
         {
-            rb.drag = 2f;
+            rb.linearDamping = 2f;
         }
         else
         {
-            rb.drag = 0f;
+            rb.linearDamping = 0f;
         }
         this.rb.AddForce(forceZ);
         this.rb.AddForce(forceX);
@@ -300,14 +300,14 @@ public class PlayerMovement : MonoBehaviour
         if (this.grounded && this.onRamp && !this.surfing && !this.crouching && !this.jumping && this.resetJumpCounter >= this.jumpCounterResetTime && Math.Abs(this.x) < 0.05f && Math.Abs(this.y) < 0.05f && !this.pushed)
         {
             this.rb.useGravity = false;
-            if (this.rb.velocity.y > 0f)
+            if (this.rb.linearVelocity.y > 0f)
             {
-                this.rb.velocity = new Vector3(this.rb.velocity.x, 0f, this.rb.velocity.z);
+                this.rb.linearVelocity = new Vector3(this.rb.linearVelocity.x, 0f, this.rb.linearVelocity.z);
                 return;
             }
-            if (this.rb.velocity.y <= 0f && Math.Abs(mag.magnitude) < 1f)
+            if (this.rb.linearVelocity.y <= 0f && Math.Abs(mag.magnitude) < 1f)
             {
-                this.rb.velocity = Vector3.zero;
+                this.rb.linearVelocity = Vector3.zero;
                 return;
             }
         }
@@ -350,18 +350,18 @@ public class PlayerMovement : MonoBehaviour
             float d = this.jumpForce * PowerupInventory.Instance.GetJumpMultiplier(null);
             this.rb.AddForce(Vector3.up * d * 1.5f, ForceMode.Impulse);
             this.rb.AddForce(this.normalVector * d * 0.5f, ForceMode.Impulse);
-            Vector3 velocity = this.rb.velocity;
-            if (this.rb.velocity.y < 0.5f)
+            Vector3 velocity = this.rb.linearVelocity;
+            if (this.rb.linearVelocity.y < 0.5f)
             {
-                this.rb.velocity = new Vector3(velocity.x, 0f, velocity.z);
+                this.rb.linearVelocity = new Vector3(velocity.x, 0f, velocity.z);
             }
-            else if (this.rb.velocity.y > 0f)
+            else if (this.rb.linearVelocity.y > 0f)
             {
-                this.rb.velocity = new Vector3(velocity.x, 0f, velocity.z);
+                this.rb.linearVelocity = new Vector3(velocity.x, 0f, velocity.z);
             }
             ParticleSystem.VelocityOverLifetimeModule velocityOverLifetime = Instantiate<GameObject>(this.playerJumpSmokeFx, base.transform.position, Quaternion.LookRotation(Vector3.up)).GetComponent<ParticleSystem>().velocityOverLifetime;
-            velocityOverLifetime.x = this.rb.velocity.x * 2f;
-            velocityOverLifetime.z = this.rb.velocity.z * 2f;
+            velocityOverLifetime.x = this.rb.linearVelocity.x * 2f;
+            velocityOverLifetime.z = this.rb.linearVelocity.z * 2f;
             this.playerStatus.Jump();
         }
         if (GameManager.gameSettings.gameMode == GameSettings.GameMode.Creative) lastJump = DateTime.Now;
@@ -374,7 +374,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void CounterMovement(float x, float y, Vector2 mag)
     {
-        if (x == 0f && y == 0f && this.rb.velocity.magnitude < 1f && this.grounded && !this.jumping && this.playerStatus.CanJump())
+        if (x == 0f && y == 0f && this.rb.linearVelocity.magnitude < 1f && this.grounded && !this.jumping && this.playerStatus.CanJump())
         {
             this.rb.isKinematic = true;
         }
@@ -388,7 +388,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (this.crouching)
         {
-            this.rb.AddForce(this.moveSpeed * 0.02f * -this.rb.velocity.normalized * this.slideCounterMovement);
+            this.rb.AddForce(this.moveSpeed * 0.02f * -this.rb.linearVelocity.normalized * this.slideCounterMovement);
             return;
         }
         if (Math.Abs(mag.x) > this.threshold && Math.Abs(x) < 0.05f && this.readyToCounterX > 1)
@@ -407,11 +407,11 @@ public class PlayerMovement : MonoBehaviour
         {
             this.rb.AddForce(this.moveSpeed * this.orientation.transform.forward * 0.02f * -mag.y * this.counterMovement * 2f);
         }
-        if (Mathf.Sqrt(Mathf.Pow(this.rb.velocity.x, 2f) + Mathf.Pow(this.rb.velocity.z, 2f)) > this.maxSpeed * PowerupInventory.Instance.GetSpeedMultiplier(null))
+        if (Mathf.Sqrt(Mathf.Pow(this.rb.linearVelocity.x, 2f) + Mathf.Pow(this.rb.linearVelocity.z, 2f)) > this.maxSpeed * PowerupInventory.Instance.GetSpeedMultiplier(null))
         {
-            float num = this.rb.velocity.y;
-            Vector3 vector = this.rb.velocity.normalized * this.maxSpeed * PowerupInventory.Instance.GetSpeedMultiplier(null);
-            this.rb.velocity = new Vector3(vector.x, num, vector.z);
+            float num = this.rb.linearVelocity.y;
+            Vector3 vector = this.rb.linearVelocity.normalized * this.maxSpeed * PowerupInventory.Instance.GetSpeedMultiplier(null);
+            this.rb.linearVelocity = new Vector3(vector.x, num, vector.z);
         }
         if (Math.Abs(x) < 0.05f)
         {
@@ -442,10 +442,10 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 FindVelRelativeToLook()
     {
         float current = this.orientation.transform.eulerAngles.y;
-        float target = Mathf.Atan2(this.rb.velocity.x, this.rb.velocity.z) * 57.29578f;
+        float target = Mathf.Atan2(this.rb.linearVelocity.x, this.rb.linearVelocity.z) * 57.29578f;
         float num = Mathf.DeltaAngle(current, target);
         float num2 = 90f - num;
-        float magnitude = new Vector2(this.rb.velocity.x, this.rb.velocity.z).magnitude;
+        float magnitude = new Vector2(this.rb.linearVelocity.x, this.rb.linearVelocity.z).magnitude;
         float num3 = magnitude * Mathf.Cos(num * 0.017453292f);
         return new Vector2(magnitude * Mathf.Cos(num2 * 0.017453292f), num3);
     }
@@ -484,8 +484,8 @@ public class PlayerMovement : MonoBehaviour
             MoveCamera.Instance.BobOnce(new Vector3(0f, this.fallSpeed, 0f));
             Vector3 point = other.contacts[0].point;
             ParticleSystem.VelocityOverLifetimeModule velocityOverLifetime = Instantiate<GameObject>(this.playerSmokeFx, point, Quaternion.LookRotation(base.transform.position - point)).GetComponent<ParticleSystem>().velocityOverLifetime;
-            velocityOverLifetime.x = this.rb.velocity.x * 2f;
-            velocityOverLifetime.z = this.rb.velocity.z * 2f;
+            velocityOverLifetime.x = this.rb.linearVelocity.x * 2f;
+            velocityOverLifetime.z = this.rb.linearVelocity.z * 2f;
         }
     }
 
@@ -567,12 +567,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector3 GetVelocity()
     {
-        return this.rb.velocity;
+        return this.rb.linearVelocity;
     }
 
     public float GetFallSpeed()
     {
-        return this.rb.velocity.y;
+        return this.rb.linearVelocity.y;
     }
 
     public Collider GetPlayerCollider()
