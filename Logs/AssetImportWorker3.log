@@ -163,3 +163,1456 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly GdkToolsEditModeTests.dll at Library/ScriptAssemblies/GdkToolsEditModeTests.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Discovery.EditModeTests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Discovery.EditModeTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Tests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Apple.dll at Library/ScriptAssemblies/Unity.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/Unity.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Security.dll at Library/ScriptAssemblies/Unity.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.TransactionVerifier.dll at Library/ScriptAssemblies/Unity.Purchasing.TransactionVerifier.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Authoring.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Authoring.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Editor.Authoring.Core.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Editor.Authoring.Core.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 25.66 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 126.50 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.122 seconds
+Domain Reload Profiling: 16274ms
+	BeginReloadAssembly (1991ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (675ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (342ms)
+	LoadAllAssembliesAndSetupDomain (3690ms)
+		LoadAssemblies (2955ms)
+		AnalyzeDomain (1842ms)
+			TypeCache.Refresh (1637ms)
+				TypeCache.ScanAssembly (1566ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (10122ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			BeforeProcessingInitializeOnLoad (922ms)
+			ProcessInitializeOnLoadAttributes (8007ms)
+			ProcessInitializeOnLoadMethodAttributes (655ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 20.04 ms, found 6 plugins.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9062 unused Assets / (18.4 MB). Loaded Objects now: 9642.
+Memory consumption went from 193.2 MB to 174.8 MB.
+Total: 32.924900 ms (FindLiveObjects: 1.832800 ms CreateObjectMapping: 1.741300 ms MarkObjects: 20.421200 ms  DeleteObjects: 8.922400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly GdkToolsEditModeTests.dll at Library/ScriptAssemblies/GdkToolsEditModeTests.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Discovery.EditModeTests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Discovery.EditModeTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Tests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Apple.dll at Library/ScriptAssemblies/Unity.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/Unity.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Security.dll at Library/ScriptAssemblies/Unity.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.TransactionVerifier.dll at Library/ScriptAssemblies/Unity.Purchasing.TransactionVerifier.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Authoring.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Authoring.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Editor.Authoring.Core.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Editor.Authoring.Core.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 17.52 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 19.25 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.646 seconds
+Domain Reload Profiling: 4561ms
+	BeginReloadAssembly (441ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (175ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (1232ms)
+		LoadAssemblies (799ms)
+		AnalyzeDomain (581ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (209ms)
+			BuildScriptInfoCaches (326ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2648ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (1333ms)
+			ProcessInitializeOnLoadMethodAttributes (696ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 18.81 ms, found 6 plugins.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9061 unused Assets / (18.4 MB). Loaded Objects now: 9645.
+Memory consumption went from 192.8 MB to 174.4 MB.
+Total: 36.449400 ms (FindLiveObjects: 1.495500 ms CreateObjectMapping: 1.510300 ms MarkObjects: 22.735600 ms  DeleteObjects: 10.704800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly GdkToolsEditModeTests.dll at Library/ScriptAssemblies/GdkToolsEditModeTests.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Discovery.EditModeTests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Discovery.EditModeTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Tests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Apple.dll at Library/ScriptAssemblies/Unity.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/Unity.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Security.dll at Library/ScriptAssemblies/Unity.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.TransactionVerifier.dll at Library/ScriptAssemblies/Unity.Purchasing.TransactionVerifier.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Authoring.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Authoring.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Editor.Authoring.Core.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Editor.Authoring.Core.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 16.74 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 22.00 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.393 seconds
+Domain Reload Profiling: 4051ms
+	BeginReloadAssembly (405ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (1008ms)
+		LoadAssemblies (734ms)
+		AnalyzeDomain (422ms)
+			TypeCache.Refresh (18ms)
+			BuildScriptInfoCaches (390ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2394ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (1200ms)
+			ProcessInitializeOnLoadMethodAttributes (599ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 19.21 ms, found 6 plugins.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9061 unused Assets / (18.5 MB). Loaded Objects now: 9648.
+Memory consumption went from 195.0 MB to 176.4 MB.
+Total: 32.077100 ms (FindLiveObjects: 1.762400 ms CreateObjectMapping: 1.650400 ms MarkObjects: 19.716300 ms  DeleteObjects: 8.943600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2413.550250 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Base_Corner_02.prefab
+  importAddress: Guid(2a5e40133219fcc46b13a502e8ee9268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Base_Corner_02.prefab using Guid(2a5e40133219fcc46b13a502e8ee9268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'af0176d4805bcddf95e215d3fa3440c5') in 0.6659133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cee4ffbf3381a9003ef62b3c80f1b42b DependenciesID=f32a18fc2b604d3aeaacf69ebbdba94d StaticDependenciesID=e3f77014e21089e0d4f126dd5c119382 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_03.prefab
+  importAddress: Guid(d141aa9800e882c4fa38e48125bcd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_03.prefab using Guid(d141aa9800e882c4fa38e48125bcd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '060b0754c5c3a7fdfac5c6b36860e7b3') in 0.1010392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71619cfbf053f5578fe0178d02a9d846 DependenciesID=ae5badfcd3a255faeebd846f1b9ff890 StaticDependenciesID=40c4b4126fa58b97b0931593a6117730 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_01.prefab
+  importAddress: Guid(f1eecc1ce30f5ee40951dbb534849a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_01.prefab using Guid(f1eecc1ce30f5ee40951dbb534849a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3584763c50e6da59f729cf2ea2e09938') in 0.0995202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fca0febf41d7f79f912c9e94eaf27c74 DependenciesID=af40cad1c3529f2e3f52fefe6568aa3f StaticDependenciesID=f0835592f8aafd72ed21d1a5b23dc936 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_02.prefab
+  importAddress: Guid(331bb3535197fd94289ab28f98c000f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_02.prefab using Guid(331bb3535197fd94289ab28f98c000f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c50dfb50fcc6eeff7474fc19c778d345') in 0.0650209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27891d3d081908e6c7c3600969478c31 DependenciesID=1d1fb1c3b9d5ce2126edbef5e18ba614 StaticDependenciesID=15468bb005cea141a69e1ff860c9a8d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Window_02.prefab
+  importAddress: Guid(91b30d29feb40794bb495a835be23b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Window_02.prefab using Guid(91b30d29feb40794bb495a835be23b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fa8da0494891c18b31e6da3a8c020ac8') in 0.4464172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7580d9ffe5995d72e62068eedd7a2145 DependenciesID=50df3070a5fa0ac6f55193de6448097d StaticDependenciesID=7803b8ef75e9f37bd7f16e193d5c7832 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Beams_01.prefab
+  importAddress: Guid(84a8c1df4ed91d74ea7a930a16df7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Beams_01.prefab using Guid(84a8c1df4ed91d74ea7a930a16df7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'efe74a84ccab1e1039a541953b9cd540') in 0.100748 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=723bced83333f3499f36f3ff6086c9d7 DependenciesID=a6d93408077c20abfb1c201d73cd29d2 StaticDependenciesID=7afb0ea9d42309918797af3e8046f858 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_04.prefab
+  importAddress: Guid(b0e14f9cb45c5d741b43a7edde1c7e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_04.prefab using Guid(b0e14f9cb45c5d741b43a7edde1c7e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a8bd0612b9018221d8e1a9d289ae8bab') in 0.0978857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26742cdb9c41c27dec92620899f54542 DependenciesID=22552105a95de16f6a6b957ae44e62ab StaticDependenciesID=569a33fc6d18608278895c4ab2d77c55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_End_Half_01.prefab
+  importAddress: Guid(725c1c5c779d3284c86e6f6e2f1c82f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_End_Half_01.prefab using Guid(725c1c5c779d3284c86e6f6e2f1c82f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bbbbfcd043e5a36113e6b8753a81bc9f') in 0.090504 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0774bfd2ea50fdafceb060fb7aed71f8 DependenciesID=e3442d7301cc20af4880f7c52024b97a StaticDependenciesID=0aae94db9c44824aff1e3b1bc7564322 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_Edge_02.prefab
+  importAddress: Guid(41515782124d5214c8f244dd7cac22d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_Edge_02.prefab using Guid(41515782124d5214c8f244dd7cac22d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5838f6efaaa292d2daed003a755dab49') in 0.0756107 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0b28502fce75aedb4382d038cef8bb1 DependenciesID=00d91075fa59d3123ea72d369570f1e2 StaticDependenciesID=73cce41cc2487dc56babfd6d62887254 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_07.prefab
+  importAddress: Guid(ee22c9d751ac69942a53a2660a6a5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_07.prefab using Guid(ee22c9d751ac69942a53a2660a6a5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8f6e9e19d41c291fbf774ca760acfa7d') in 0.1343002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5cb7423999ebc9170e6ccef131fc3e4 DependenciesID=242cb8b87f6c6f4fd579d294ddcb2b8c StaticDependenciesID=076f416dcd8f272d349ee7bc06c63658 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Plinth_03.prefab
+  importAddress: Guid(e0aa01b088f88194e92c4eb312d6a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Plinth_03.prefab using Guid(e0aa01b088f88194e92c4eb312d6a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '33bb05cf149e0f07a5d3b75c05fc69a3') in 0.1102273 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=815d460c976768a72e473ce4d88049d8 DependenciesID=89abdbc60e0f03f547914a810e8b9554 StaticDependenciesID=975074eb3e915aaa6f733cb45959e739 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Edge_End_02.prefab
+  importAddress: Guid(ece099653f78b684484d04fee5540315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Edge_End_02.prefab using Guid(ece099653f78b684484d04fee5540315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '87e05396150ee76930d5f3dc27bf7321') in 0.07686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3cd46448369e538608a7d288605bc27 DependenciesID=a86c35cc9b3c8a17e81f244fdb2e1ae0 StaticDependenciesID=28390789dbab5e51f8d87a033d178ed4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Window_03.prefab
+  importAddress: Guid(10837a526d42b8845bd25e2c94a56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Window_03.prefab using Guid(10837a526d42b8845bd25e2c94a56d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c94202105d17df74727ed654c41cc201') in 0.0740161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10b2313154be9457f797236fb88a0c41 DependenciesID=47d68f110a00bcf85e28a353a3a6cf5d StaticDependenciesID=29c3c3880fd24d47f35b14742a546bc7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Glass_01.prefab
+  importAddress: Guid(bde14ecc04be6af4b86f250872d579f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Glass_01.prefab using Guid(bde14ecc04be6af4b86f250872d579f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16f971c4b640d424d3ccc2a1bad4ed84') in 0.0334476 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d6bfbc30925fb220d93a0e24b357347 DependenciesID=2271d6c0ae173784a34e750ae47423d6 StaticDependenciesID=e18d6c4a11f4ff466eb038ad58a3ff42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_Beam_02.prefab
+  importAddress: Guid(2620eb1d422fde24086fcea292e82966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_Beam_02.prefab using Guid(2620eb1d422fde24086fcea292e82966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6e998696e1467ac1b86a6461f44f1bb6') in 0.0658352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd3d2837a8f5e7368da6feb20df94934 DependenciesID=a90ce3021be94eb9f430b1b96cd033a7 StaticDependenciesID=21f2c6d0d4d824678a1280a09f9a7b15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Intersection_01.prefab
+  importAddress: Guid(9e96c5deadd1a404bb4bd48933881e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Intersection_01.prefab using Guid(9e96c5deadd1a404bb4bd48933881e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46513690bee969089f98dd1a90a7b7e3') in 0.0655757 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3268eadd5f8698b914c3b4f148a3a2e8 DependenciesID=8490d326f5ce80bdef03244d7476fff7 StaticDependenciesID=accdb20a4dc9894776feb02d91a0c4b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_02.prefab
+  importAddress: Guid(6ba78661600fe924eb49d2d12975a284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_02.prefab using Guid(6ba78661600fe924eb49d2d12975a284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d6c576e8da611c5b68510c2f65a6666') in 0.068926 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=864f3f67b8f69e399dcc8d7803baaeb4 DependenciesID=79717fa1c60fb6b0c32be6d378687ea1 StaticDependenciesID=d0c67ae3d46cf0d9c04c5a6290feb592 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_01.prefab
+  importAddress: Guid(1fa46e5098016ea41965a7835c313e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_01.prefab using Guid(1fa46e5098016ea41965a7835c313e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3b55975c4bb1865e90220c4926aff5e4') in 0.075419 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bae0421e06e46d32f394b104e5352505 DependenciesID=4038f48399a09fec90d3d7ea17c75fde StaticDependenciesID=21d2bc1d587c9373b81ae271627ac487 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_08.prefab
+  importAddress: Guid(71819d39899de4349b6f2c17e27084b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_08.prefab using Guid(71819d39899de4349b6f2c17e27084b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9bf35f90421414f23d3802ff2955444b') in 0.0752862 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93eaa02bdc35ab367719b301ade6d71c DependenciesID=ecd7191157904660b392d97a66201cc7 StaticDependenciesID=be1de607b9ddea8b16d039af214881ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Stone_01.prefab
+  importAddress: Guid(453939d3b95bcc548a2f9dcadf22126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Stone_01.prefab using Guid(453939d3b95bcc548a2f9dcadf22126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'db5a24ba7b0cad8e034870ccc0ed2b1f') in 0.0653967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6db84e6125ebfffb1925bbfa131b361e DependenciesID=1171a0938e9ba448c7c3c9329ab005e8 StaticDependenciesID=8b09d83abda59c41dd2fa8b5f1ba3195 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_03.prefab
+  importAddress: Guid(b6e1ca24e5edc23458217b7dac95c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_03.prefab using Guid(b6e1ca24e5edc23458217b7dac95c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4743dafd00d410f555d3aa3b2937610e') in 0.0730256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1de080fecc4957df1c7a288540e883b DependenciesID=1c9522d68b7184b864f23fbf6d1d11a5 StaticDependenciesID=1bd7c79048bd7c5c7d0af05a8197ae73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_02.prefab
+  importAddress: Guid(38dc6b7d962fc7c4ea3dfd3cbc01c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Edge_02.prefab using Guid(38dc6b7d962fc7c4ea3dfd3cbc01c3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0f15f4083f5cb91a55c38b536970028e') in 0.0683158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7124b2c3f42144fa177ed5cbee525aa DependenciesID=d96c565f44729ebaaa123618a1ae63fd StaticDependenciesID=e250430af69cff49c02220ef61eeaa55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_03.prefab
+  importAddress: Guid(7f5bb0edf6454cb4a90be81c582d33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_03.prefab using Guid(7f5bb0edf6454cb4a90be81c582d33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '97f595b7c0d5b26a01cdddbfa30dea9c') in 0.0669368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6b04dca0f351eb1f5dcee75736e3694 DependenciesID=6d1402a898c81f6315ccd5f05fd46077 StaticDependenciesID=8322d464a08d2d4ae10e65f20d1bef27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_02.prefab
+  importAddress: Guid(43333baa4588d8e45b07bac483c2fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_02.prefab using Guid(43333baa4588d8e45b07bac483c2fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aaf515beae1dca0dce7a783cdb99a8fa') in 0.0642994 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ec84c7b0affcc05c2d00b7b3bd9b0cb DependenciesID=03c6c80b7a8cf83caa8d68fd507b132c StaticDependenciesID=f10f31d8ab9eabc54fa6e08102bc4a6e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_03.prefab
+  importAddress: Guid(ea7157677e826b54692de811efcc91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_03.prefab using Guid(ea7157677e826b54692de811efcc91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bd5b10f8b69716682418bb683bd65685') in 0.0780743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7478e399759097d833c169025a21ddd1 DependenciesID=11ae564e7b4908065598b5a45ef389d4 StaticDependenciesID=b6933d89b27ac7d956d06cc2c82409cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Edge_02.prefab
+  importAddress: Guid(e72015608f385c74e8129e5be475a97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Edge_02.prefab using Guid(e72015608f385c74e8129e5be475a97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd98b1f483595045b4f5f4475430a2a51') in 0.0714506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d0f593b9544279b3659320500842dd8 DependenciesID=77105fc36b3e024ed24e947179b1d237 StaticDependenciesID=f8d7d83e40595845a53f3787dd480135 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Edge_End_02.prefab
+  importAddress: Guid(f82ea1e1f0efed74983254b69ed2be16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Edge_End_02.prefab using Guid(f82ea1e1f0efed74983254b69ed2be16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b94aa502011e944a52f0fd9c95b16c7') in 0.0728513 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=430fa90bc783cac7fc63413bb6a05984 DependenciesID=584837885c664492a511a9f000fc18d7 StaticDependenciesID=2dbeec9317752be396e8f199c9df6e2e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Half_01.prefab
+  importAddress: Guid(fc63a473937116f408be4a681a51a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Half_01.prefab using Guid(fc63a473937116f408be4a681a51a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5fe39da4f7e85eea7437ffcfc3bc44c1') in 0.0703071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c5cf6779ae43b8ba1a021638fc40c45 DependenciesID=87263fef339b04f7c0deac5373c1ce63 StaticDependenciesID=a01d26ecee757c76ceae5244b92312b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_06.prefab
+  importAddress: Guid(9cee29074c70e0b438240514647c041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_06.prefab using Guid(9cee29074c70e0b438240514647c041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e5b24f6aef203b2982288523d8f2b024') in 0.0652958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90d08a39090c472b0f85ee328fedb066 DependenciesID=2a500cf460ab8ec4763dd152f361bbab StaticDependenciesID=3a7fd267396bfebfdc4beafa946efa27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Base_Wall_02.prefab
+  importAddress: Guid(5e6d923e6649cb949a8d315e26246fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Base_Wall_02.prefab using Guid(5e6d923e6649cb949a8d315e26246fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea3c92bab000aeb2c8b96fa9882dce3a') in 0.0708589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=633d539fc479df87e7e67dbe3da43858 DependenciesID=90b51c496ee5df1adcfaaed2685b13fd StaticDependenciesID=a078c799028b0865a2d99d37d1c25b2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_TowerGap_02.prefab
+  importAddress: Guid(0e65bc92228cace43b244e9813ed57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_TowerGap_02.prefab using Guid(0e65bc92228cace43b244e9813ed57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd66126e55e875feb2bf1dbc9232f68c8') in 0.0684634 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42aeb0ac9d68cfb1225bfb82369e20ac DependenciesID=64f0a07f0a143a8e5a40e19c3b6bd0fa StaticDependenciesID=d349c4cc800c511c045d8bdb09c6ea52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_05.prefab
+  importAddress: Guid(8a8326e8a15e06a4ab9ad563fbff5cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_05.prefab using Guid(8a8326e8a15e06a4ab9ad563fbff5cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c15579ddb81b36378d5fd66b43132c3') in 0.0657704 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c2803c4584a0f60f4ae5d3332b3195f DependenciesID=34b4c0767033b71eabc513d886a238da StaticDependenciesID=51cf6a6d5189a1549114dba5e036fc7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_02.prefab
+  importAddress: Guid(96de408d5d71bc64693c80702b6aad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_02.prefab using Guid(96de408d5d71bc64693c80702b6aad12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5c4b72e5d5e1ac80df5d72ee91b937ea') in 0.0663811 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b93ec50bb6a489917b8f2efc8b2d7aee DependenciesID=3e84aa563587bda06aabd60cb6c7d767 StaticDependenciesID=1049ff3bb22a3e446834a8ddae7ac6fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_Edge_01.prefab
+  importAddress: Guid(557524768abc18a4698e923c70edad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_Edge_01.prefab using Guid(557524768abc18a4698e923c70edad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2c88ba009c9ea03c7593e2f9463adc3a') in 0.0626257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7520c025c1d584d452ee063ac7e640a8 DependenciesID=e6a527561a291344fa85e70868d4960a StaticDependenciesID=08183111e87a4b231f26b784760b6cdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_01.prefab
+  importAddress: Guid(36e6ca5e9715e374ab14f33763f463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_01.prefab using Guid(36e6ca5e9715e374ab14f33763f463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0bf5d0a26d36b25e6da215bfe4910372') in 0.0679882 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b2875d81defade7c1433fb1c7c3bf91 DependenciesID=ea943cebd38fba1dc09191d4538ac3d1 StaticDependenciesID=64474bd9b06e72695d555af68e0f04f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_01.prefab
+  importAddress: Guid(2c4d1094b65c4ef4990f886a16f58bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_01.prefab using Guid(2c4d1094b65c4ef4990f886a16f58bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b5274490762496d49b1a3f6be52a6375') in 0.0668957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad5313e68712d3d02434ebc760373006 DependenciesID=7ca779fb4f94d6add70bd285dc4d6408 StaticDependenciesID=3949214b5b850d8e03ddc09663fc8582 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Plinth_01.prefab
+  importAddress: Guid(52b640b64fcdd7e40951d5e94bcee4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Plinth_01.prefab using Guid(52b640b64fcdd7e40951d5e94bcee4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a3fcca7e4563c966b37f595abc8c1391') in 0.0612388 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15481dbff76da419c1d0a20f8ca4b8bc DependenciesID=b5526d2b6aa605e1a36ee27cc1158476 StaticDependenciesID=3465fd92c84b52ef6aae33b4070e5b12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_01.prefab
+  importAddress: Guid(4e550f669af2c3c4b9c69fe89a63ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_01.prefab using Guid(4e550f669af2c3c4b9c69fe89a63ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aaef3cb601f6d5e32071ae9553699a24') in 0.0827677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c67ad205c601163e615cf452835204f DependenciesID=cef36dba1f94c59ee24dfb9bbce8441f StaticDependenciesID=4b2eb823be2557c220c9e236e484e6e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Edge_03.prefab
+  importAddress: Guid(5cd81c063c48c5e499784ac810038ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Edge_03.prefab using Guid(5cd81c063c48c5e499784ac810038ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9c182fae354d27c70165157a2f8e6f67') in 0.0697942 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f97e42787303224651813e97a77f8d92 DependenciesID=2d51e87a2e5860f3d8b99e386ede3992 StaticDependenciesID=ae5f904bd6b766733449e2513ce1f544 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_04.prefab
+  importAddress: Guid(dbf42ba885386564289b35d3f3a54b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_04.prefab using Guid(dbf42ba885386564289b35d3f3a54b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '29156f1a61bef9a1972115298accfa6c') in 0.0703188 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af36f153ed8854503a0670e121511911 DependenciesID=e96fcca612855331936ff3ba551cc2c6 StaticDependenciesID=753efa85abf4e07d6c8793c589daf832 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_01.prefab
+  importAddress: Guid(b838d1ee494215941a5fb8e920cea1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_01.prefab using Guid(b838d1ee494215941a5fb8e920cea1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16f67760a49e3ca0854bca489ea61a83') in 0.0747111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd610e58625e3a49ca46cbe4877bbc3d DependenciesID=5654b07ba1ffaeedf5ce2b599648d7af StaticDependenciesID=2c23e916a24147c3a432733738990303 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Beam_01.prefab
+  importAddress: Guid(5088d9e9917e65a4dbe74efed2d0da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Beam_01.prefab using Guid(5088d9e9917e65a4dbe74efed2d0da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '28cf00ce01660831d3fd9152e9d3753e') in 0.0772377 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f722c88f73d2ed117bbb31c3a9a784f DependenciesID=41f2191522863014b47e27205557d6f8 StaticDependenciesID=fc205982cacfabaa8999037ddb6cb424 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Base_02.prefab
+  importAddress: Guid(4011d87215ae1a145aadc995e8a74210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Base_02.prefab using Guid(4011d87215ae1a145aadc995e8a74210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '76cc9515f6a281db5fdfba36a972d064') in 0.0723413 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=564a3bcccef9a766e51b147a4ac0f91b DependenciesID=3bc0df039ddd7047f5f1fdc357f8fdea StaticDependenciesID=1d3cff0e26b1d429d5285fb1abf7d053 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cap_01.prefab
+  importAddress: Guid(67c1e546c666c5c42bcb09e0a0bf179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cap_01.prefab using Guid(67c1e546c666c5c42bcb09e0a0bf179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9f1412a62419b23e30813a0e44bc1d39') in 0.0703601 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcf6f0c2bbc9d7c03c50562764843320 DependenciesID=c8f1b493a96da7ee70a472addfa396a8 StaticDependenciesID=f22b43278694c71b8314cecb8ebb706d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_02.prefab
+  importAddress: Guid(2e82b58cd9ad73a4fbba4d09e9de36c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_02.prefab using Guid(2e82b58cd9ad73a4fbba4d09e9de36c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '351399c24bc585600c3c537cd3ddc064') in 0.0758871 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3cc3a76130aae1719b1d5e51fb298a6 DependenciesID=7a038544096a90406282c883356f36bf StaticDependenciesID=c6ebaf99994f4f67b6485414077b564f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_Half_01.prefab
+  importAddress: Guid(c96bc5efccdd7c94a8e982ebe87b1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Railing_Half_01.prefab using Guid(c96bc5efccdd7c94a8e982ebe87b1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f7482f459f59415866c74bf8307ebcaa') in 0.0775905 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bde6efc6ae5155ae4b98a68b91b8f901 DependenciesID=15019bae08d97c981b5526d8db328785 StaticDependenciesID=32620d57739fa6c02ec5a93f54a550be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_Edge_02.prefab
+  importAddress: Guid(f5ec4e5e124fcda47808246ca9107520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Angled_Edge_02.prefab using Guid(f5ec4e5e124fcda47808246ca9107520) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b3fcc2b0e562f08594e0328df4872068') in 0.076574 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f36463ef92a30adbcbedd88033231ae DependenciesID=62bbaa038f17db8672f8667aca35b24e StaticDependenciesID=b7764926be5f1355cdf5a7ee76f2ed46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Edge_02.prefab
+  importAddress: Guid(98b7e53bc358e2e46b8db594ac79a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Peak_Cap_Edge_02.prefab using Guid(98b7e53bc358e2e46b8db594ac79a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '895b8ee580e228f9f6d1d415671f55f5') in 0.0779944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ded027bb779cc51c3f47659397284a22 DependenciesID=0dddc699d8815021b8d2ca55dc16c773 StaticDependenciesID=d22657aa71f91315d73201223c0e3b4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Half_02.prefab
+  importAddress: Guid(132ba1c7589c76f489f201de9d44473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Half_02.prefab using Guid(132ba1c7589c76f489f201de9d44473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b905cb98bb61e7ed629fc12245497309') in 0.0788791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cac5fc7474f565b3f4dc3993e4a37ad5 DependenciesID=f299d18671245f27c229596e5ecbbd31 StaticDependenciesID=613ac96233cd584d221f4169624bff1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_01.prefab
+  importAddress: Guid(d90d63b1a860b134eaffb7403bd1cee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_01.prefab using Guid(d90d63b1a860b134eaffb7403bd1cee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '21163b2d29a381ea104ebadf4a60f8fd') in 0.0829398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1957cb25463502b45d7bccf273fc64e DependenciesID=0314abfbb6b00d75058b2dde86e00056 StaticDependenciesID=90eaf6434d72c3cbd354ce09df93a193 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_03.prefab
+  importAddress: Guid(9e8cb075c592bdf428e8653e38c87018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_Stone_Base_03.prefab using Guid(9e8cb075c592bdf428e8653e38c87018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '86b79e253467733df6f3089e3962303d') in 0.1085641 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b39bfb65708a436cee5d52e58da4d555 DependenciesID=4dcb83ed947423b0e3a5a8a6f2d0ee05 StaticDependenciesID=3efda60ebb9ad0b7753818e6e84a1988 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_07.prefab
+  importAddress: Guid(381b0f8dced1e8a4fa969d23bfb43df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Chimney_07.prefab using Guid(381b0f8dced1e8a4fa969d23bfb43df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bfd52aaaedb5672198c9f70591a2de3d') in 0.0887472 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fd2329637a19ead9fc8fc1f846aff40 DependenciesID=8b1111b99f7c174353d87c754360bb57 StaticDependenciesID=a57098926a3120ae5fcd569f1c28488e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_01.prefab
+  importAddress: Guid(9163f244328625047b47a029a3d8791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Thatch_Cover_Corner_01.prefab using Guid(9163f244328625047b47a029a3d8791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f3929013e2cc3130d38267107d0c259') in 0.0822721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6109dfaba95f4f8fd3f24cdc3aa9d3c7 DependenciesID=a7f73ab32774fdcf4abbd79403fcb349 StaticDependenciesID=81757ba8aef024e1b29b727db2309a37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_03.prefab
+  importAddress: Guid(15e37f428b6a8fb458ce2d5765ac2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_03.prefab using Guid(15e37f428b6a8fb458ce2d5765ac2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fddea2b5fb5f5bec799f8b605c4f72e5') in 0.0835789 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e00a1a53d8bf0412aecad02a78afa782 DependenciesID=36a1a8c83847b72829f6fac338bb6fa4 StaticDependenciesID=6b5a1de156d8636ee8ef29fabeaf6a38 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_Corner_01.prefab
+  importAddress: Guid(41d94a1039e03664eae4048e1f530e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Cover_Corner_01.prefab using Guid(41d94a1039e03664eae4048e1f530e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a7cb19fbc9b9a6db5f378bf7bcf743a8') in 0.077468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb0dbe3c7f9ff3c85697ba1776eaf51c DependenciesID=d575533b443831f9622a2313a2c4dd40 StaticDependenciesID=af58b0a85b3dda047a5999fe5967f973 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_05.prefab
+  importAddress: Guid(da4344f12fe9e694aa1e11b87d77973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_05.prefab using Guid(da4344f12fe9e694aa1e11b87d77973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '85ca178dd46813a3b1b60b9cc5fb1ba6') in 0.082954 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8aa6f0325ee056967e0ec4e8b4d0c3e5 DependenciesID=f5b7a5e530331b3739ec3e43799d7403 StaticDependenciesID=b915411d46700c61fe8d30ba05b5e61a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_Half_01.prefab
+  importAddress: Guid(47ce35c4e2bea0a42b12989cdffdfb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Angled_Half_01.prefab using Guid(47ce35c4e2bea0a42b12989cdffdfb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7e9166f06dd6f0243063c44dcbf55b5f') in 0.0844898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03f2cafbef4d418d46e7e201aebf2745 DependenciesID=9a473e6569e497da761af6cd0536381b StaticDependenciesID=d707e334d2e202c2649f72b72302ef43 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_02.prefab
+  importAddress: Guid(91398dc6c80ef01448ef5bb086fca2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Floor_Wood_02.prefab using Guid(91398dc6c80ef01448ef5bb086fca2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8ae53d633089d0e1d3f801433c9c673a') in 0.0772622 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8079fbb791532decd00124d391ab2e7 DependenciesID=39e11d8546792b43a4856305bb256162 StaticDependenciesID=78d1e03ed2cbde730a73ce1c5da11f4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.755157 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Half_02.prefab
+  importAddress: Guid(0f91f160e535d93478ad60d799196a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Half_02.prefab using Guid(0f91f160e535d93478ad60d799196a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '72d1c68fe10964f4b0d0251339f33546') in 0.1260474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55fde92f8de12c60930e6fd1863f26a0 DependenciesID=852e2479500e239ed9c246cfc0b61202 StaticDependenciesID=bebb24c26b2cac82dc64ae06a8bf5fc2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Intersection_01.prefab
+  importAddress: Guid(03e30f124c61fbe408d76bc78a056127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Intersection_01.prefab using Guid(03e30f124c61fbe408d76bc78a056127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fbe8f75b73622c07b09667847d47fa45') in 0.1259773 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=622d629870f80893cee350933efd3a38 DependenciesID=dc4f29cf528b78350f5d513f45a1c7ab StaticDependenciesID=32562e0b65277662b4c285905cdc89d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.660135 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Peak_Cap_Edge_01.prefab
+  importAddress: Guid(091c1e7cef4ea744584a18da118399f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Peak_Cap_Edge_01.prefab using Guid(091c1e7cef4ea744584a18da118399f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5ec1c30b7f214ad0d87a837ab933bb77') in 0.1854225 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d77fc458cf4a9d323449498178707df3 DependenciesID=39b7a82aff391f242f11809b4fa18fd5 StaticDependenciesID=d681123abeffb57f049bce4f20dfbc4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_01.prefab
+  importAddress: Guid(373bd9e99c2d7ba43a6ce6fce50b62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_01.prefab using Guid(373bd9e99c2d7ba43a6ce6fce50b62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '586b805f5f66fe322b499c83e293420f') in 0.0858101 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35c2d1a95f06f5d18beca4567e205d12 DependenciesID=2da1234b1edf9c6883f049e0eedb832a StaticDependenciesID=b590d0f2ef596ec15d1146958c597ced 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_TowerGap_02.prefab
+  importAddress: Guid(da8dc38d8bcbf5748a55d00dd93d3de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_TowerGap_02.prefab using Guid(da8dc38d8bcbf5748a55d00dd93d3de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '94e488dcf8ca00e4a98c530b6a4a8325') in 0.0732438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20d9790618e1bd80ee90d7ffdccd8e0f DependenciesID=91bee3f06fbf63671c22dc3ef4f5e859 StaticDependenciesID=1fcfc529b52718210b1c47042b6af231 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Window_01.prefab
+  importAddress: Guid(9b840f20d911c104dbc2356da3c1acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Window_01.prefab using Guid(9b840f20d911c104dbc2356da3c1acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b64de8b69181eec1b610ee9be68e01a3') in 0.0691436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f4886c46fe3bf07f8c7a6b8f04e501d DependenciesID=53105105268a45a83a19b7343b48f257 StaticDependenciesID=108088a3c25f62c92fb72199348717cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_Railing_01.prefab
+  importAddress: Guid(fa51137f48b598a4a82dbfe91ec4b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_Railing_01.prefab using Guid(fa51137f48b598a4a82dbfe91ec4b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4f0dd951f83614326df526902ff2592f') in 0.0683697 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32c38316dc6bb2b699375f185de8cb1a DependenciesID=1a400af7330a8366a69d2993d960a7ad StaticDependenciesID=bf0ac63b1bfcd342f80d67499735bfbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Peak_Cap_Half_01.prefab
+  importAddress: Guid(2e8d02e72dd32a140a587701b5ae8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Roof_Tile_Peak_Cap_Half_01.prefab using Guid(2e8d02e72dd32a140a587701b5ae8453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ad93fdbc639e362c782049c20efcd074') in 0.0727374 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc427c98d91685bfc3585a64d13e957e DependenciesID=20524bed6a07e6a390487407e480fcd4 StaticDependenciesID=a5ba66bad2bdc26cbd307e151ab3089e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778561 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_Tall_01.prefab
+  importAddress: Guid(9572a348901049a48bd08ad51386467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Stairs_Tall_01.prefab using Guid(9572a348901049a48bd08ad51386467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1ca3e870fbf593323055995cc8a3cd82') in 0.1365755 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=634ecd5109bf93709c4259dd0fe79a61 DependenciesID=43d880a09644b05289d172740d816b79 StaticDependenciesID=ea53e2a314a4a413f192b343f2f652d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_02.prefab
+  importAddress: Guid(595662307fa227d489bcf782b910374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_02.prefab using Guid(595662307fa227d489bcf782b910374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7c0b934494f857052e1c3fc4fe3cf18c') in 0.1156738 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=234bfa30dceadade8a7a2da89fac0868 DependenciesID=a1638a4ba00550a43a975a98330e2d00 StaticDependenciesID=899da7e6cc7c7c40d510623173ab369e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Angle_HeightCap_01.prefab
+  importAddress: Guid(a086fe798a8b4a74dbd539420de298b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Angle_HeightCap_01.prefab using Guid(a086fe798a8b4a74dbd539420de298b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9c1952db9dc19a86c4a1c549c669b430') in 0.0809109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a57c4a2d01fcc71d18c18c336e9771a DependenciesID=740b8d67a116a7ff5904e49e69601da9 StaticDependenciesID=78307622620d22401e16930951f88b86 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_01.prefab
+  importAddress: Guid(716528e7391d7714abab5cd412ab898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_01.prefab using Guid(716528e7391d7714abab5cd412ab898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4847d7dba94dc2faeaede6467fed0a39') in 0.0967898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b87a466a08351c1ad443dcb4196f8f98 DependenciesID=02e9796002da0db53dd0c2ca1a43c78f StaticDependenciesID=10d7b695f97b575f746bf22a7af14f44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.405677 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Angle_Window_03.prefab
+  importAddress: Guid(e8923e2ac6049fa42af49190697a0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Angle_Window_03.prefab using Guid(e8923e2ac6049fa42af49190697a0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b7b930f2420ce776cec425eee3df1ad7') in 0.1215187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6eb11122ed7b6c2441c81e9f725ff2cb DependenciesID=25576a7379b210af6f34861cefd2aa87 StaticDependenciesID=ca976d8c7ce0e0f7fbc0886a5465925f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Flooring_01.prefab
+  importAddress: Guid(85206da4dd6f76e47b71fed438f7b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Flooring_01.prefab using Guid(85206da4dd6f76e47b71fed438f7b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'eb320acdac5b0cff0def995cd496de77') in 0.1022705 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c647237b0e80744ecc228841547e4ea1 DependenciesID=63af3e5ad21bc9abe2e5847d1de31261 StaticDependenciesID=22e3dad10beedcca3d07f77caf816016 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846122 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Stone_Small_01.prefab
+  importAddress: Guid(3f6b15c16378cb143853f76ef8100791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Tower_Stone_Small_01.prefab using Guid(3f6b15c16378cb143853f76ef8100791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '68ba6c23b0b3864c1f7fdbb89d54fd15') in 0.1030665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13e25b94eab3bfa82f8d6307cc10e48d DependenciesID=245f0c2ed89b89002387823d647b3d51 StaticDependenciesID=1c3b32688e2cf9fb7e80c7b8bb78b7eb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_03.prefab
+  importAddress: Guid(6a2d08334a8a1ac4c95fe9813ab87629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_03.prefab using Guid(6a2d08334a8a1ac4c95fe9813ab87629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f9731c2f3a28bb765d8d2c770f1c32b1') in 0.0913051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a30aeadc8266bb7f3ac9217c690cfee DependenciesID=6f6674d5d3b2a8cdb9e3ce9b36bad840 StaticDependenciesID=b5e3d5fc3bcc8ff03aed1f92f28cf141 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Cut_02.prefab
+  importAddress: Guid(30962e431446a4d4aab2f8e82c1dfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Cut_02.prefab using Guid(30962e431446a4d4aab2f8e82c1dfb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7f5a76d6c359821cf493da40f49fe321') in 0.0767653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42957c49b546351218634aa397b2bdac DependenciesID=16ff2741ac16e92280b77d1c319b6bb3 StaticDependenciesID=e03a1820cd13eabc88a36a742295cb5f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Cut_01.prefab
+  importAddress: Guid(5eaff36645789984d89d5b750987b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Cut_01.prefab using Guid(5eaff36645789984d89d5b750987b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4d858d768df53031d220a21fe7ad7e10') in 0.0842644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23aa7e5581b3d512e6ff05a760f52a69 DependenciesID=010477e7e42d2ecc21f6d8ab382c0f6a StaticDependenciesID=e5836033f6213d5b15ae127c8536fbdb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_04.prefab
+  importAddress: Guid(67efcb7bd7a7aaf48b75ba44a0d135e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_04.prefab using Guid(67efcb7bd7a7aaf48b75ba44a0d135e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9d74210f13477db09aac7d5f5b67d070') in 0.0697098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95ce4526da2509716ee41282b2958250 DependenciesID=f10037296bfab7cc86a4572fb50759fc StaticDependenciesID=062efbe697dc8a24bd82d01f95c15524 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260088 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Door_01.prefab
+  importAddress: Guid(cf78b8bf36ea4054ca05e622c8dc2c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Door_01.prefab using Guid(cf78b8bf36ea4054ca05e622c8dc2c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ce5bb0ca85c8815c6a922d8e14c44d30') in 0.1111693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=003869a0806edbc30a662e13c3e024da DependenciesID=3d3c9f3c337613e1088c2de8fc1dc853 StaticDependenciesID=946e0fcd63e07c37708dd8cc320bb3b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Half_01.prefab
+  importAddress: Guid(c8fbfbc6932ed064ca74598a3d2781ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Half_01.prefab using Guid(c8fbfbc6932ed064ca74598a3d2781ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd60d55bd568b2b919e9de5cfcf344d2b') in 0.1192681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d55e903d13eb757628e8eba67eedf3a2 DependenciesID=12c5e9f2be964722812aea09d757b72b StaticDependenciesID=13aec880d033297be8961d4964455061 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836091 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Half_Window_01.prefab
+  importAddress: Guid(7fa0be63a8af0fd46ac094e516471fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Half_Window_01.prefab using Guid(7fa0be63a8af0fd46ac094e516471fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd890da1757292795cbfef1949271a1b4') in 0.1146556 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e78ce0d9dbdf1452aa7e49bfc10d8afb DependenciesID=41526b0b90db9bfeaaa44b1629ffe0b6 StaticDependenciesID=bb94255c35ecd04c33ad32f686d849f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_HeightCap_02.prefab
+  importAddress: Guid(e1c9c99f8ba7f3b41a1ab1799da58fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_HeightCap_02.prefab using Guid(e1c9c99f8ba7f3b41a1ab1799da58fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '66bdf2e9224fff0f942ca1bd18fbc287') in 0.0859587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9ac6f3e0f90e0c5457c8350fb8dd390 DependenciesID=87274d19a87ca97d844f1718f44c5beb StaticDependenciesID=279839148e7fe17bd48104d1e295e29a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280041 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Peak_Window_02.prefab
+  importAddress: Guid(538def58e494b934791a248ac576634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Peak_Window_02.prefab using Guid(538def58e494b934791a248ac576634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '40a00e19da8d36cf3ccaa180508347f9') in 0.1151528 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=655898747d106d9fc1dfd642c895124f DependenciesID=f83d475094bc5b182674e99f5a1b1b21 StaticDependenciesID=6afd8a69891380b5c999957589af21bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_06.prefab
+  importAddress: Guid(ddf300faed54dc64d9ced530193b8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_06.prefab using Guid(ddf300faed54dc64d9ced530193b8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5aa76f53745221f6f3db97c0776d8be6') in 0.1014053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2584140974bbf66522c7e3b975a8e22c DependenciesID=f15afcf13e4945670d00ac65f0603fd5 StaticDependenciesID=735c5c8593c533eb1bc865e498ae2b91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_01.prefab
+  importAddress: Guid(34e521243b9550c4c84ff680ba49613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_01.prefab using Guid(34e521243b9550c4c84ff680ba49613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b843603ef2b16825bfa078879d9443bc') in 0.0921951 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08c552bef5cf918ccaf5a7ac0556a4bb DependenciesID=f5e8ab5d688b76de3f384a2f1a4af4c3 StaticDependenciesID=e4be0fb83e35039a6dddd165d2051b70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Quarter_01.prefab
+  importAddress: Guid(60fac680984302545a0137a83a3507b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Quarter_01.prefab using Guid(60fac680984302545a0137a83a3507b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9632479edcadfe2ab0ae6a5379ab83a6') in 0.0733846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a01882553f220cee0a9192a5be13a47 DependenciesID=74db5ba95f09583406bce76165a1bf6a StaticDependenciesID=e90dd5c92214d538846a8aed5e5799ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_07.prefab
+  importAddress: Guid(9912cd236ea5f1a48a79574ff5c6d53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_Window_07.prefab using Guid(9912cd236ea5f1a48a79574ff5c6d53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0ac6ab33a1b204d69b9165cebe26696d') in 0.0739546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eeba25cac7cc4100685cb7e71d6464e3 DependenciesID=9ddd1afad27a4fb1912fdc4ed3702879 StaticDependenciesID=e0860e9248ec7118680a2163c5859abb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126546 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_WindowBox_02.prefab
+  importAddress: Guid(5c4f9d706f11cfe48b91e422c6ebe63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_WindowBox_02.prefab using Guid(5c4f9d706f11cfe48b91e422c6ebe63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1192300b8d74d68e8e254836530b4f8c') in 0.1172449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0202a919671761556889ec375f81f9e8 DependenciesID=f16d63e6470588a873b732d45e9a002b StaticDependenciesID=9104c85ddbd7438bae69cda8e4632a27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_WindowBox_06.prefab
+  importAddress: Guid(441b4e1e10686d045841bfb0f3771b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_Wall_WindowBox_06.prefab using Guid(441b4e1e10686d045841bfb0f3771b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ee458d12c55d760e6a703ad575c640ea') in 0.1053119 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2df4c785a7dc15be1ae4941474c0a0e6 DependenciesID=8a91db6a060ce4d53ddb60b350c3213f StaticDependenciesID=9c739fff10d5b732156d1f0031ee8729 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264490 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_WoodBeam_02.prefab
+  importAddress: Guid(a9d681c148d59f14ba976d22ca3d6758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_WoodBeam_02.prefab using Guid(a9d681c148d59f14ba976d22ca3d6758) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0b3eb0bc88beddeef654328c2e7ef920') in 0.1097738 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c528b5a36f8686bf8139cc9cb1e5c1b DependenciesID=ed0adbde9c0a5e6fed07e2b34c0340e0 StaticDependenciesID=d00812b8274ff9e75f43b7edec45f95a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_WoodBeam_04.prefab
+  importAddress: Guid(46eaf8ca17f37074fb01751a0208a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/House/SM_Bld_House_WoodBeam_04.prefab using Guid(46eaf8ca17f37074fb01751a0208a8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fcc37b8c2f9d18c7fc1f36f090ba2079') in 0.0886476 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c191e64e4ca0485eda71d3fc129acc2 DependenciesID=996cb9381a35c6c6470f320323667744 StaticDependenciesID=bdb9471f3db002fb689a7a04fc52737b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.570109 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Blacksmith_Female_01.prefab
+  importAddress: Guid(a129c7755e4c7d843b98bfa2af4b3fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Blacksmith_Female_01.prefab using Guid(a129c7755e4c7d843b98bfa2af4b3fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd0515aee0a7c058abe1f798298461f5e') in 0.4273393 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f4121010aacf6bd97933004f59bf1bb DependenciesID=d9294cba40bae2a253e4dac84a708103 StaticDependenciesID=44a4a20cb0f755828d8ae033cc2c99a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_King_01.prefab
+  importAddress: Guid(78bc42a4ceca0424ca04f3b7e68989ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_King_01.prefab using Guid(78bc42a4ceca0424ca04f3b7e68989ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b44eadee86e35a11635ae977ba95b704') in 0.0817219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adc8f00dfd25be3bdea8eae62d77c11f DependenciesID=7656350be3b872039d3cbd1ae1f5198e StaticDependenciesID=605c6354273b1e7504e3d1817c12594b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 229
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Male_01.prefab
+  importAddress: Guid(b3a21033f5e25ef47a403070d1d96983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Male_01.prefab using Guid(b3a21033f5e25ef47a403070d1d96983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c0ae563f37e8cc984dcadcda16341c26') in 0.0755228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec9848efe10158b39176f439190724b1 DependenciesID=616a63927095f21bc485071a814f2003 StaticDependenciesID=6160716e765944b3f0d9c898f50b34e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Princess_01.prefab
+  importAddress: Guid(119427e8efe54b54ea5b98536358014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Princess_01.prefab using Guid(119427e8efe54b54ea5b98536358014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '602e5df6b04a7c793872c4e1c54f76d6') in 0.0792065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56045521281dce416e76b8ebb00cb5e2 DependenciesID=e6147f6b47f2bda866f48cc749b6b308 StaticDependenciesID=939e6e03f1f18e965febdec233a7cc9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Queen_01.prefab
+  importAddress: Guid(4585a66dfd7209046a39ab9c63600129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Queen_01.prefab using Guid(4585a66dfd7209046a39ab9c63600129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '18abf96fc2ab93c14cd2dc9110eee8df') in 0.0819009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ee458ae445e224ebd27d13368292413 DependenciesID=c8b35e7bbffd5f5261ca06086b167495 StaticDependenciesID=ba4b009d3a82c72d36471709ea8fa479 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Female_01.prefab
+  importAddress: Guid(8d458e1bc503f3b4d89e72e841681909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Female_01.prefab using Guid(8d458e1bc503f3b4d89e72e841681909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c5e68d6d319e034e65d4313861bad601') in 0.0808665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3b89e4e9003421df099ca364f735a58 DependenciesID=aee8b3303eadefeaa5c9d43ee1239cf1 StaticDependenciesID=1975c1a540005bfed0bee09a64f9974c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Prince_01.prefab
+  importAddress: Guid(a8884fa09da891440a328b0212cd9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Prince_01.prefab using Guid(a8884fa09da891440a328b0212cd9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '61f39a28215ff2442d1fd69316548b00') in 0.0747314 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ec04f81b03a8a84cb99cedfd9034214 DependenciesID=cc920e765899c1fe2bbceac1399a8526 StaticDependenciesID=b48ef16d2984ba7b82da54b0f2555fb7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Hermit_01.prefab
+  importAddress: Guid(d5a148a3575c47145a45da3ec571473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Hermit_01.prefab using Guid(d5a148a3575c47145a45da3ec571473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd2dc907e7703b6ccdbe597134427e55d') in 0.0771565 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f1e3662d3e608d02eabd71bbdf212e5 DependenciesID=82b26fe03c627f76c3547d2b95c479d0 StaticDependenciesID=c1b4ec5e93e315b20948305a64f16986 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Monk_01.prefab
+  importAddress: Guid(989e70245d7d4924d8758338bd26804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Monk_01.prefab using Guid(989e70245d7d4924d8758338bd26804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '11bee357b28a868f2cb8fb6eba8e1922') in 0.0765573 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=435f2409bcb649ce4e7a69fd61a5a430 DependenciesID=dd0a237a6d5308706a9c9635511c7e91 StaticDependenciesID=a1b0637b59c888fe34e8580aca3c69b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Merchant_01.prefab
+  importAddress: Guid(4f671f96ada2b43438b517dbc501e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Merchant_01.prefab using Guid(4f671f96ada2b43438b517dbc501e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ad36da36f6f85c4eecd2d6742044b41c') in 0.0915882 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5692557adb91dbd74b9dfb280fad92f7 DependenciesID=69e0e83e0aca038366266d6c728062c5 StaticDependenciesID=5e8c3340bd817f6c7a7f814ec29196a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 198
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.925768 seconds.
+  path: Assets/PrefabInstance/Anvil.prefab
+  importAddress: Guid(f59972d6676695e43b848a36382f3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Anvil.prefab using Guid(f59972d6676695e43b848a36382f3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '66c969ad51b39b93ee2edcfe40ae51c6') in 0.5850271 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a969690e5cc24ca55ff69da7a78b49b DependenciesID=6013b1c9fc3cfd7810921865a3ba05ee StaticDependenciesID=dcc9c401f905e8a15d172219fa7fec10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PrefabInstance/AttackWarning.prefab
+  importAddress: Guid(1608b5d79f9ddcd4e8582d5c003097d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/AttackWarning.prefab using Guid(1608b5d79f9ddcd4e8582d5c003097d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1b9c2319e47e0576253df78919a04ed2') in 0.2716785 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f890c27ad78a5cc5585542111f6afd1e DependenciesID=45aee021091ed0123b615d10da8712d6 StaticDependenciesID=ec25d3516b592282b26089deb8bbbb57 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PrefabInstance/DebugText.prefab
+  importAddress: Guid(c73d3c0773267f04f9abd0497ec20ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DebugText.prefab using Guid(c73d3c0773267f04f9abd0497ec20ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b050fb9ea403f8beb368973b6545cb9f') in 0.0039743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0476e81ded36948cacee26aeb61f8ba DependenciesID=7e16c2c14fa8a04192a9ffb0139c4dd1 StaticDependenciesID=880ef6181488a8b1c120db8c88c9f007 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PrefabInstance/EnemyZone.prefab
+  importAddress: Guid(4710c87d4777da542824f7c5ffa4d303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/EnemyZone.prefab using Guid(4710c87d4777da542824f7c5ffa4d303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bf7b3a953db2b7e8bde51dc6319c4b14') in 0.0046329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce6cef5c3a4e5323f0a13f658ffd7cb1 DependenciesID=7169e8967c670e4c48e381ac3e55566c StaticDependenciesID=207c60e3f723d44990a72ddc65319e42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PrefabInstance/Cow.prefab
+  importAddress: Guid(bb3cbc48af2f40e409a22ca516f789a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Cow.prefab using Guid(bb3cbc48af2f40e409a22ca516f789a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4a0285e689ddf14e8cbdaa51fd8b7d48') in 0.4110972 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e750a633ac655a492304d2a74b6b45af DependenciesID=93a8682e9707377d8e1fd07460f51b2c StaticDependenciesID=844590b1723727f7b58bcbac2f30ff6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 269
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PrefabInstance/CoalPickup.prefab
+  importAddress: Guid(e510cfd7aa5d69841b3de7e251bf982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/CoalPickup.prefab using Guid(e510cfd7aa5d69841b3de7e251bf982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea98666c396662c24fcc8fb56f1db1f1') in 0.0358998 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9576d2889fcbf66ecc9ffa595b7f38b6 DependenciesID=4a6cdb5b0b7d25d8120db717241d897f StaticDependenciesID=73551ddb7147f02a3582457d51cc4d33 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PrefabInstance/ArrowHitFx.prefab
+  importAddress: Guid(66df728c6b162bd4c88196c39d577416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/ArrowHitFx.prefab using Guid(66df728c6b162bd4c88196c39d577416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '319723d335cb6e30d547a413e78a9a6b') in 0.030274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abec881858fe4fcadc1cd68c4be4f76d DependenciesID=14e36869e7bb1294f92bc37347050673 StaticDependenciesID=62b260482e3baaf41af6216dce9891fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PrefabInstance/BoolSetting.prefab
+  importAddress: Guid(3d129a03c8f2e8c4db17f082766d790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/BoolSetting.prefab using Guid(3d129a03c8f2e8c4db17f082766d790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dec0a11b5ba5b5c8adcf85d4ae30f2eb') in 0.0302438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce139e5674b27426040c24e5385772a2 DependenciesID=8244fcba314bf103daf519c0b8ef5390 StaticDependenciesID=0f39d3737ad175ca07b16d598e0bc3a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PrefabInstance/CreativeCell.prefab
+  importAddress: Guid(9f6123529bced7342b6184f54ee41904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/CreativeCell.prefab using Guid(9f6123529bced7342b6184f54ee41904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '15cee40379d6d64640bea26c2f2748af') in 0.027976 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f2289d91240ea14527598a35454b191 DependenciesID=3bbcbe72f86dc1001d4da7299e15d068 StaticDependenciesID=c15f9a3780e343526e9f420d5bc8934b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PrefabInstance/Cauldron.prefab
+  importAddress: Guid(04f2a3c8711d91a4ba85db6306935309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Cauldron.prefab using Guid(04f2a3c8711d91a4ba85db6306935309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f18ff95ed09c1ed221a316a050547a24') in 0.1468969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=849293b20f57d0c1c293533f2fc30b6e DependenciesID=62f642f49f51af5e7009973bf4c99a04 StaticDependenciesID=f26f2c48a8285ea0e9d81de9e0cace99 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 165
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PrefabInstance/DragonWaterSplash.prefab
+  importAddress: Guid(8fc06aae449ac7c4590c07bc2a4fcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DragonWaterSplash.prefab using Guid(8fc06aae449ac7c4590c07bc2a4fcd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '05f50e21efaa00f8fc3167fe7a79a708') in 0.0196612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3006e1a7bf5cf1ec42754b1a9dde8d1 DependenciesID=9d9db8f583c604a7f655f7dbdacbbe14 StaticDependenciesID=fd528e193889a72ad89d44764ea59b56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PrefabInstance/Boat.prefab
+  importAddress: Guid(7d244ea45777ee649a56668603a9dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Boat.prefab using Guid(7d244ea45777ee649a56668603a9dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6d638a92d8043e049df1dc7fa799e320') in 0.9386306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14876ff853795a969a1f534b79558a55 DependenciesID=0b062da0a8421a94bbea935d2684a7d8 StaticDependenciesID=31e17c00c5efdf903a5c30054190789d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1502
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PrefabInstance/DarkOak.prefab
+  importAddress: Guid(aa1235943c627be4183872cfcca13de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/DarkOak.prefab using Guid(aa1235943c627be4183872cfcca13de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'afe6e78818f4ad7f505df2ba8f8ac323') in 0.4492212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56420d6f5370db6252174b088f57075d DependenciesID=aab17161fe154cf7e6614fe0a4c4a332 StaticDependenciesID=2df02686ecb6acfb738229eb7c15d66e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.434463 seconds.
+  path: Assets/PrefabInstance/FireBreathAttack (1).prefab
+  importAddress: Guid(5b5fb1702c8c09546a319ea629ed9385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/FireBreathAttack (1).prefab using Guid(5b5fb1702c8c09546a319ea629ed9385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '23287a64e0a64c2954eefb4bdee3d530') in 0.1726724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=093e51bce25e5b1b8c8020ae9a3fc6fc DependenciesID=b44efc426d8a122d1005479567a828ba StaticDependenciesID=03455307605b61a8f4956d5a31add630 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PrefabInstance/GoblinSwordProjectile.prefab
+  importAddress: Guid(87ab8e012f6b8784bab401792251fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/GoblinSwordProjectile.prefab using Guid(87ab8e012f6b8784bab401792251fe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'faa6c20bc01c1eef814650582e68449a') in 0.0798025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a84ec5895e5f83e8fd733e0ec51ba03 DependenciesID=3bbc45c7e167681d17875f486e1d01cb StaticDependenciesID=f3968f725d704d2746b880bfdff66ba7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PrefabInstance/Grave.prefab
+  importAddress: Guid(1ed8eb955c2c7ef40b4cdbe94eb8ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Grave.prefab using Guid(1ed8eb955c2c7ef40b4cdbe94eb8ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57915964f9230b5f3cd0bcaf09ccd156') in 0.3195732 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=150c7c3182becff454be2fd2a186c860 DependenciesID=b72fa98c8e0920dccd0222ef8cf695f4 StaticDependenciesID=e6527c176c9ecf31924b267f4695f8e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PrefabInstance/GoblinBlood.prefab
+  importAddress: Guid(1b0624c6c5d78e34e80aacb7176a2424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/GoblinBlood.prefab using Guid(1b0624c6c5d78e34e80aacb7176a2424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '82c73a75292d0c9404de099a2bdaab75') in 0.0474971 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=447a9f81064d62a5ab5b03be215922cd DependenciesID=24d9874dbbbb256682bcb75c6a653ca3 StaticDependenciesID=920bbeb8f6ddd13d9e66a4ce652e3b75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PrefabInstance/Flint.prefab
+  importAddress: Guid(c28a75958cd51ad4ba913ca80d26cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Flint.prefab using Guid(c28a75958cd51ad4ba913ca80d26cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9b8cfcefe84f0bd3dc9fd696a4f060a1') in 0.0312964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dd3d5096df05db0d7c8535fe1640557 DependenciesID=7fe914231e755800403a1f3f36be7663 StaticDependenciesID=0ed63fccc25461b2a9a6c4d045c2ada9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PrefabInstance/GolemGroundAttack.prefab
+  importAddress: Guid(c904f1dd8ad1200438b4841b36f1148f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/GolemGroundAttack.prefab using Guid(c904f1dd8ad1200438b4841b36f1148f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '35d18387079075df77e96745ba0b6326') in 0.0505228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f1af244f683a133a7c7a9077851edbc DependenciesID=4369bab5857228961a52d1d3060432ac StaticDependenciesID=639fd4f3da64fdc7da6cae1fe96d2e9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.644287 seconds.
+  path: Assets/PrefabInstance/GronkGroundHit.prefab
+  importAddress: Guid(69c33b1077fb2834bb60b21006035ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/GronkGroundHit.prefab using Guid(69c33b1077fb2834bb60b21006035ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6fc738fa43bdd426c0280e17b8b74fca') in 0.1040328 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f204d79b26395e1bdacd2adfce197523 DependenciesID=da54ede7ed85aae07383fadf5cded6b2 StaticDependenciesID=6c93bcecdf5caf207fc1f5bd3f43a150 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PrefabInstance/GronkStep.prefab
+  importAddress: Guid(e46967520bf69e44985f59886229523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/GronkStep.prefab using Guid(e46967520bf69e44985f59886229523a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '24297b8d4f332129049c36467a172451') in 0.0499357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed815b1f6340cb27b1f4f6d884ea6bd5 DependenciesID=f152f1a3b514f26bf911c3ba5525335d StaticDependenciesID=9d58474e68311600cd5cd59189dfdcd7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PrefabInstance/HitEffect.prefab
+  importAddress: Guid(2dab8043efff60d40bb0f384580fa359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/HitEffect.prefab using Guid(2dab8043efff60d40bb0f384580fa359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e4a1b7662cd6c1fc415f773df26a3393') in 0.0030843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c095fa7ca135ff2fd2ae9bc2408f8d4b DependenciesID=8496f377662b70b46b20b68e311edfbb StaticDependenciesID=e803a2222c915a24e18dbfd2028ddd42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PrefabInstance/House_Cook.prefab
+  importAddress: Guid(e8dbc0d870f41db41a11bb857211b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/House_Cook.prefab using Guid(e8dbc0d870f41db41a11bb857211b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '83d4b4c020fdb9136cbe960781d3af3b') in 0.4461169 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6fe70ae16e9c3e5eba3038c3433147f DependenciesID=07dd71119250b617e68e528ab62e2b68 StaticDependenciesID=ca7c9618f86bd833873070a3310dcd17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 359
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PrefabInstance/Guardian.prefab
+  importAddress: Guid(2794bc4c45b880b42a5a0dfd54101d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Guardian.prefab using Guid(2794bc4c45b880b42a5a0dfd54101d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '62692df75a9d8619be74520202ce6348') in 0.5773275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad1ed6d1faab9ba9de5f1f55ea90a8ab DependenciesID=50c9421285aecc1f6bc5ac526ae04493 StaticDependenciesID=31f80651ef6fd8f8d052df6b66677f5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 653
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.825879 seconds.
+  path: Assets/PrefabInstance/Iron.prefab
+  importAddress: Guid(1acdaf5a04c14d442a2c674001158cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Iron.prefab using Guid(1acdaf5a04c14d442a2c674001158cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2f75f9301015fbc69cfe65ab401c5515') in 0.3667792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4fbbff2bb3b53ee30f29e8fc6a661d8 DependenciesID=74da440bf5adcdc70411109111d2712c StaticDependenciesID=60bbfb4f50bde9246e9ab3730637016c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 227
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.650690 seconds.
+  path: Assets/PrefabInstance/LootChestBlue.prefab
+  importAddress: Guid(a7e95584b81c40b4d8ee91b832fe138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LootChestBlue.prefab using Guid(a7e95584b81c40b4d8ee91b832fe138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b69d82c94163e6c160fe38f9071cfc15') in 0.3974616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f080cf8f48e36ce70b0a5ec0a3657fa2 DependenciesID=0fe948150ab3b60b5e83a05b29dca9ad StaticDependenciesID=05eb6a3becf04a8026ded68b929e23a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/PrefabInstance/MobHp.prefab
+  importAddress: Guid(4256d104c2695154188f57f0fd7fba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/MobHp.prefab using Guid(4256d104c2695154188f57f0fd7fba64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '98aee722fe9d287b22cdab6ce7df9a01') in 0.00699 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eaba277063e9b371fd4779149c227fd4 DependenciesID=3958211f946d194e99aad2d0a2536fea StaticDependenciesID=d9ac7b6bc9d07edff2b0130caa74068a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PrefabInstance/LootChestOrange.prefab
+  importAddress: Guid(afb3761b6ac302f4bade58fe7b68e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/LootChestOrange.prefab using Guid(afb3761b6ac302f4bade58fe7b68e618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a81ec7b49650aa86e210a23e5852bd6') in 0.2443804 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=814fee3331a2583e2f73e5644ba8ba86 DependenciesID=e8ec9cbb0a179facfc1be44db827b7f1 StaticDependenciesID=ccd71aa49d6ead243a79ed972d7316db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.878026 seconds.
+  path: Assets/PrefabInstance/MushroomRed.prefab
+  importAddress: Guid(1ffc05860043f0b478904ff44a325118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/MushroomRed.prefab using Guid(1ffc05860043f0b478904ff44a325118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ff647c100ddad7d8e16fd6974be39b65') in 0.3263227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8a801c445b5b7bee03d2817a74cbd16 DependenciesID=ebe1393c56f4b284dd040f334db3f2e2 StaticDependenciesID=a61e1e5ad8ce3abcb05d0453dd78e272 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PrefabInstance/Oak.prefab
+  importAddress: Guid(dad9618c60efc384fbef8501276673c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Oak.prefab using Guid(dad9618c60efc384fbef8501276673c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '17a22f7144c2426a8fc4a86433ff2aaf') in 0.2009689 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9a35441441fbf4a7cdb1543372792d4 DependenciesID=90a53bdd0ee106b7cdce05bae77e5109 StaticDependenciesID=478e99b1b7e56220cddc293d827b2259 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 213
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.272573 seconds.
+  path: Assets/PrefabInstance/Planks_Pole.prefab
+  importAddress: Guid(9e0fb928ccf56a94cbcbd7db902a23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Planks_Pole.prefab using Guid(9e0fb928ccf56a94cbcbd7db902a23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec8e928124ea70de76214b7590f86877') in 0.1672553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77e731b8b58eb711e5b51f7ef18397d9 DependenciesID=1f0ebc6a6957af38bc600d3200a92243 StaticDependenciesID=58ba8de3885f2e263deb625ff22add86 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PrefabInstance/Planks_Stairs_Half.prefab
+  importAddress: Guid(69e4fdf940b1db54a837950bbfabf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Planks_Stairs_Half.prefab using Guid(69e4fdf940b1db54a837950bbfabf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2580c527833ccbcb4e838396d7eecb1a') in 0.1631653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6989461808b0f6baaaa0235f82e885bf DependenciesID=b2a0a8affd80d430c9e5d8325b1cddde StaticDependenciesID=dee86ae9ad36ed1efe0628f492538d7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.683661 seconds.
+  path: Assets/PrefabInstance/Planks_WallWindow.prefab
+  importAddress: Guid(83ec4449a8bc40749a18419babe82b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Planks_WallWindow.prefab using Guid(83ec4449a8bc40749a18419babe82b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd0e77ffb027bdefc3f9e083d7b2324c2') in 0.1603531 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a8ec4d09366d3e3fc78cc772c9dee66 DependenciesID=4969867b55c8741141e493a6c874e2be StaticDependenciesID=95b87364593e3697d120fc84ac94f0dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PrefabInstance/PlayerLoadingPRefab.prefab
+  importAddress: Guid(03dd2f8a7f9935144bdb18d145d8df30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PlayerLoadingPRefab.prefab using Guid(03dd2f8a7f9935144bdb18d145d8df30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6fac93a17f2ea6cba94adb2fb9284cf0') in 0.0251827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d0eca1fdd70b28e004d04243d701714 DependenciesID=2b71b2f14ac0b01e05f22780440d3e49 StaticDependenciesID=de6f7bc771a94562d13be41aa4618352 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PrefabInstance/PlayerJumpSmokeFx.prefab
+  importAddress: Guid(09051e38408f03848a22f42888c88f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PlayerJumpSmokeFx.prefab using Guid(09051e38408f03848a22f42888c88f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e62729dd89b344b70046269dcf7ce9e1') in 0.0355977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73d4a9d2b47c45934baee5f0db6bf219 DependenciesID=7051e0bbc15de5e781e358a27e5c3dda StaticDependenciesID=205c8ef5a6dcf8dc4b04060969b262c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PrefabInstance/PlayerSmokeFx.prefab
+  importAddress: Guid(824b24ff04f4231469002c46c34b83f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PlayerSmokeFx.prefab using Guid(824b24ff04f4231469002c46c34b83f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4ffcecd74c7ea9f0dd5684377c0b3951') in 0.0203816 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4da7e4675c2f84eeca87382025f1878d DependenciesID=d762410d862c1e4a700b39ca51ce93d7 StaticDependenciesID=bae1a098d88b40dfec980fd8b61a283a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PrefabInstance/PlayerStatus.prefab
+  importAddress: Guid(3c67220ae48b0954b9eb5d447f8c64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/PlayerStatus.prefab using Guid(3c67220ae48b0954b9eb5d447f8c64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3a234fad576b5cede56edcb27d114561') in 0.0096542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d810c1767489c7177116d1127ef41301 DependenciesID=f55185a067a5bcc073dea3f5acb3d4a7 StaticDependenciesID=79686185f41f172cc60e5dae867107ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PrefabInstance/Rock.prefab
+  importAddress: Guid(7f035955981b8954a92b639177837e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabInstance/Rock.prefab using Guid(7f035955981b8954a92b639177837e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '99e684214ede887fd60c0f67990fa198') in 0.1482272 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=059522e748a453b93a398a3e45f8727e DependenciesID=8fe6fec8b915f0b37fc5e8a2deaee8f7 StaticDependenciesID=52c94a881285798120b480d378611549 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 118
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly GdkToolsEditModeTests.dll at Library/ScriptAssemblies/GdkToolsEditModeTests.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Discovery.EditModeTests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Discovery.EditModeTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Microsoft.GDK.Tests.dll at Library/ScriptAssemblies/Unity.Microsoft.GDK.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Postprocessing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Apple.dll at Library/ScriptAssemblies/Unity.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/Unity.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.Security.dll at Library/ScriptAssemblies/Unity.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly Unity.Purchasing.TransactionVerifier.dll at Library/ScriptAssemblies/Unity.Purchasing.TransactionVerifier.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Authoring.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Authoring.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.Purchasing.Editor.Authoring.Core.dll at Library/ScriptAssemblies/UnityEditor.Purchasing.Editor.Authoring.Core.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 20.67 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 17.81 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.421 seconds
+Domain Reload Profiling: 4143ms
+	BeginReloadAssembly (413ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (162ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (154ms)
+	LoadAllAssembliesAndSetupDomain (1082ms)
+		LoadAssemblies (737ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (18ms)
+			BuildScriptInfoCaches (440ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2422ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (1171ms)
+			ProcessInitializeOnLoadMethodAttributes (627ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 20.59 ms, found 6 plugins.
+Unloading 57 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9064 unused Assets / (18.5 MB). Loaded Objects now: 9665.
+Memory consumption went from 196.0 MB to 177.5 MB.
+Total: 34.357500 ms (FindLiveObjects: 1.808700 ms CreateObjectMapping: 1.609300 ms MarkObjects: 21.056300 ms  DeleteObjects: 9.878300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
